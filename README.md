@@ -1,6 +1,7 @@
-# DHPython
 
-#DATA HARVEST PYTHON TRACK
+
+# DATA HARVEST PYTHON TRACK
+
 Full set of lessons from 2018 Dataharvest 2018 Python training
 
 
