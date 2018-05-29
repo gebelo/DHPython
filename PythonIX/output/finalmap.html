@@ -1,0 +1,3760 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS = false; L_NO_TOUCH = false; L_DISABLE_3D = false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css" />
+    <link rel="stylesheet" href="https://rawgit.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css" />
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <style> #map_6336d3912df84ec493326d84460a6caf {
+                position : relative;
+                width : 100.0%;
+                height: 100.0%;
+                left: 0.0%;
+                top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_6336d3912df84ec493326d84460a6caf" ></div>
+        
+</body>
+<script>    
+    
+
+            
+                var bounds = null;
+            
+
+            var map_6336d3912df84ec493326d84460a6caf = L.map(
+                                  'map_6336d3912df84ec493326d84460a6caf',
+                                  {center: [50.7499,4.4999],
+                                  zoom: 8,
+                                  maxBounds: bounds,
+                                  layers: [],
+                                  worldCopyJump: false,
+                                  crs: L.CRS.EPSG3857
+                                 });
+            
+        
+    
+            var tile_layer_f5228dc7e3de4df6a3b3411491b28af8 = L.tileLayer(
+                'https://stamen-tiles-{s}.a.ssl.fastly.net/toner/{z}/{x}/{y}.png',
+                {
+  "attribution": null,
+  "detectRetina": false,
+  "maxZoom": 18,
+  "minZoom": 1,
+  "noWrap": false,
+  "subdomains": "abc"
+}
+                ).addTo(map_6336d3912df84ec493326d84460a6caf);
+        
+    
+
+            var marker_5de41e39b0864864b11d7771ee6c161a = L.marker(
+                [50.93333300000001,4.033333],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_6336d3912df84ec493326d84460a6caf);
+            
+    
+
+                var icon_a71a74ba865a43e499b15443ac29105f = L.AwesomeMarkers.icon({
+                    icon: 'user',
+                    iconColor: 'white',
+                    markerColor: 'darkgreen',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_5de41e39b0864864b11d7771ee6c161a.setIcon(icon_a71a74ba865a43e499b15443ac29105f);
+            
+    
+            var popup_a68e5bc271fa4a5face33581553d164d = L.popup({maxWidth: '300'});
+
+            
+                var html_3813687c8c6245e8b5281f0712e0d3a2 = $('<div id="html_3813687c8c6245e8b5281f0712e0d3a2" style="width: 100.0%; height: 100.0%;"><b>Aalst: </b>77534 People.</div>')[0];
+                popup_a68e5bc271fa4a5face33581553d164d.setContent(html_3813687c8c6245e8b5281f0712e0d3a2);
+            
+
+            marker_5de41e39b0864864b11d7771ee6c161a.bindPopup(popup_a68e5bc271fa4a5face33581553d164d);
+
+            
+        
+    
+
+            var marker_73f8728dcf1c420e8f8292eb6b07c24b = L.marker(
+                [50.983333,4.8333330000000005],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_6336d3912df84ec493326d84460a6caf);
+            
+    
+
+                var icon_2746011e1e044f118a03807e32b35693 = L.AwesomeMarkers.icon({
+                    icon: 'user',
+                    iconColor: 'white',
+                    markerColor: 'darkgreen',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_73f8728dcf1c420e8f8292eb6b07c24b.setIcon(icon_2746011e1e044f118a03807e32b35693);
+            
+    
+            var popup_1012d23fcb1f499da0a4671e4466d278 = L.popup({maxWidth: '300'});
+
+            
+                var html_70d885b35cb04247b3ec1c23dccca409 = $('<div id="html_70d885b35cb04247b3ec1c23dccca409" style="width: 100.0%; height: 100.0%;"><b>Aarschot: </b>27656 People.</div>')[0];
+                popup_1012d23fcb1f499da0a4671e4466d278.setContent(html_70d885b35cb04247b3ec1c23dccca409);
+            
+
+            marker_73f8728dcf1c420e8f8292eb6b07c24b.bindPopup(popup_1012d23fcb1f499da0a4671e4466d278);
+
+            
+        
+    
+
+            var marker_5bd05aa4310f4be2bbdb126ac540656d = L.marker(
+                [50.483333,5.1],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_6336d3912df84ec493326d84460a6caf);
+            
+    
+
+                var icon_1a66450a7d824b7bb13fefd5427f1443 = L.AwesomeMarkers.icon({
+                    icon: 'user',
+                    iconColor: 'white',
+                    markerColor: 'darkgreen',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_5bd05aa4310f4be2bbdb126ac540656d.setIcon(icon_1a66450a7d824b7bb13fefd5427f1443);
+            
+    
+            var popup_96869628f99e438f93bf769f4130fe9a = L.popup({maxWidth: '300'});
+
+            
+                var html_a629d945f7ce45769318e123ca4a4d2d = $('<div id="html_a629d945f7ce45769318e123ca4a4d2d" style="width: 100.0%; height: 100.0%;"><b>Andenne: </b>24055 People.</div>')[0];
+                popup_96869628f99e438f93bf769f4130fe9a.setContent(html_a629d945f7ce45769318e123ca4a4d2d);
+            
+
+            marker_5bd05aa4310f4be2bbdb126ac540656d.bindPopup(popup_96869628f99e438f93bf769f4130fe9a);
+
+            
+        
+    
+
+            var marker_ee2e887bba8f4174996a1311dae7138e = L.marker(
+                [50.65,5.533333],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_6336d3912df84ec493326d84460a6caf);
+            
+    
+
+                var icon_0f805949393f4f108d639a0915cf8e2e = L.AwesomeMarkers.icon({
+                    icon: 'user',
+                    iconColor: 'white',
+                    markerColor: 'darkgreen',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_ee2e887bba8f4174996a1311dae7138e.setIcon(icon_0f805949393f4f108d639a0915cf8e2e);
+            
+    
+            var popup_9d92ee9bfb534013a8f729508aff4fae = L.popup({maxWidth: '300'});
+
+            
+                var html_e1b5185dba0e4788866c3a206119ad0f = $('<div id="html_e1b5185dba0e4788866c3a206119ad0f" style="width: 100.0%; height: 100.0%;"><b>Ans: </b>27297 People.</div>')[0];
+                popup_9d92ee9bfb534013a8f729508aff4fae.setContent(html_e1b5185dba0e4788866c3a206119ad0f);
+            
+
+            marker_ee2e887bba8f4174996a1311dae7138e.bindPopup(popup_9d92ee9bfb534013a8f729508aff4fae);
+
+            
+        
+    
+
+            var marker_fc371900542e497486700c98ab82688f = L.marker(
+                [51.216667,4.416667],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_6336d3912df84ec493326d84460a6caf);
+            
+    
+
+                var icon_ffa36ee940d64b5780bf6c23ec6c0a2c = L.AwesomeMarkers.icon({
+                    icon: 'user',
+                    iconColor: 'white',
+                    markerColor: 'darkgreen',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_fc371900542e497486700c98ab82688f.setIcon(icon_ffa36ee940d64b5780bf6c23ec6c0a2c);
+            
+    
+            var popup_0129c9e9c9ad4fc8a97c381005179113 = L.popup({maxWidth: '300'});
+
+            
+                var html_72e5b9553f4e48b580d27912e48ca940 = $('<div id="html_72e5b9553f4e48b580d27912e48ca940" style="width: 100.0%; height: 100.0%;"><b>Antwerp: </b>459805 People.</div>')[0];
+                popup_0129c9e9c9ad4fc8a97c381005179113.setContent(html_72e5b9553f4e48b580d27912e48ca940);
+            
+
+            marker_fc371900542e497486700c98ab82688f.bindPopup(popup_0129c9e9c9ad4fc8a97c381005179113);
+
+            
+        
+    
+
+            var marker_599a0dd89b8942a39348a766ca637ef8 = L.marker(
+                [49.68333300000001,5.816667],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_6336d3912df84ec493326d84460a6caf);
+            
+    
+
+                var icon_345b1826c8364aaeb981edaf807f5018 = L.AwesomeMarkers.icon({
+                    icon: 'user',
+                    iconColor: 'white',
+                    markerColor: 'darkgreen',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_599a0dd89b8942a39348a766ca637ef8.setIcon(icon_345b1826c8364aaeb981edaf807f5018);
+            
+    
+            var popup_cfe2d988b75a4b76956c26c0f1459915 = L.popup({maxWidth: '300'});
+
+            
+                var html_bfefba34b60e40ba98f1a1365c505749 = $('<div id="html_bfefba34b60e40ba98f1a1365c505749" style="width: 100.0%; height: 100.0%;"><b>Arlon: </b>26179 People.</div>')[0];
+                popup_cfe2d988b75a4b76956c26c0f1459915.setContent(html_bfefba34b60e40ba98f1a1365c505749);
+            
+
+            marker_599a0dd89b8942a39348a766ca637ef8.bindPopup(popup_cfe2d988b75a4b76956c26c0f1459915);
+
+            
+        
+    
+
+            var marker_2577334772b641b5bc752e8ad6457ea0 = L.marker(
+                [50.916667,4.2],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_6336d3912df84ec493326d84460a6caf);
+            
+    
+
+                var icon_11ec737b23d7472bb8cbce933d7e9a48 = L.AwesomeMarkers.icon({
+                    icon: 'user',
+                    iconColor: 'white',
+                    markerColor: 'darkgreen',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_2577334772b641b5bc752e8ad6457ea0.setIcon(icon_11ec737b23d7472bb8cbce933d7e9a48);
+            
+    
+            var popup_8f0a32b4653a47038e8009e7c2247fdd = L.popup({maxWidth: '300'});
+
+            
+                var html_aced22a0565d438bbf37c3178791a729 = $('<div id="html_aced22a0565d438bbf37c3178791a729" style="width: 100.0%; height: 100.0%;"><b>Asse: </b>28985 People.</div>')[0];
+                popup_8f0a32b4653a47038e8009e7c2247fdd.setContent(html_aced22a0565d438bbf37c3178791a729);
+            
+
+            marker_2577334772b641b5bc752e8ad6457ea0.bindPopup(popup_8f0a32b4653a47038e8009e7c2247fdd);
+
+            
+        
+    
+
+            var marker_cbf52dc0a8554a7c9ac87915e363d8c7 = L.marker(
+                [50.633333,3.783333],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_6336d3912df84ec493326d84460a6caf);
+            
+    
+
+                var icon_2fe531ab91854d75aa39a0b10c326709 = L.AwesomeMarkers.icon({
+                    icon: 'user',
+                    iconColor: 'white',
+                    markerColor: 'darkgreen',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_cbf52dc0a8554a7c9ac87915e363d8c7.setIcon(icon_2fe531ab91854d75aa39a0b10c326709);
+            
+    
+            var popup_2fc360a80b914299a46ae6cb597c9412 = L.popup({maxWidth: '300'});
+
+            
+                var html_f9da06a1035f4c52ad4b1adf1857c85f = $('<div id="html_f9da06a1035f4c52ad4b1adf1857c85f" style="width: 100.0%; height: 100.0%;"><b>Ath: </b>26681 People.</div>')[0];
+                popup_2fc360a80b914299a46ae6cb597c9412.setContent(html_f9da06a1035f4c52ad4b1adf1857c85f);
+            
+
+            marker_cbf52dc0a8554a7c9ac87915e363d8c7.bindPopup(popup_2fc360a80b914299a46ae6cb597c9412);
+
+            
+        
+    
+
+            var marker_ca2d132ac3f3431aa41ac3284fc904a7 = L.marker(
+                [50.766667,4.3],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_6336d3912df84ec493326d84460a6caf);
+            
+    
+
+                var icon_03971e31ba544173ba237720ea16567f = L.AwesomeMarkers.icon({
+                    icon: 'user',
+                    iconColor: 'white',
+                    markerColor: 'darkgreen',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_ca2d132ac3f3431aa41ac3284fc904a7.setIcon(icon_03971e31ba544173ba237720ea16567f);
+            
+    
+            var popup_f01341733e1d4b6cac1f393e5328d35f = L.popup({maxWidth: '300'});
+
+            
+                var html_7bf80f44f7c845b9aeead133cce8d563 = $('<div id="html_7bf80f44f7c845b9aeead133cce8d563" style="width: 100.0%; height: 100.0%;"><b>Beersel: </b>23228 People.</div>')[0];
+                popup_f01341733e1d4b6cac1f393e5328d35f.setContent(html_7bf80f44f7c845b9aeead133cce8d563);
+            
+
+            marker_ca2d132ac3f3431aa41ac3284fc904a7.bindPopup(popup_f01341733e1d4b6cac1f393e5328d35f);
+
+            
+        
+    
+
+            var marker_a14d84b8da3849cb882708729d2486d9 = L.marker(
+                [51.05,5.216667],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_6336d3912df84ec493326d84460a6caf);
+            
+    
+
+                var icon_ac386c9900af46c5be34bee9bb6e15b6 = L.AwesomeMarkers.icon({
+                    icon: 'user',
+                    iconColor: 'white',
+                    markerColor: 'darkgreen',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_a14d84b8da3849cb882708729d2486d9.setIcon(icon_ac386c9900af46c5be34bee9bb6e15b6);
+            
+    
+            var popup_c12d6cffb77c45e7b46befc111a45b47 = L.popup({maxWidth: '300'});
+
+            
+                var html_24076c8ed5e3413a98eb219db381a686 = $('<div id="html_24076c8ed5e3413a98eb219db381a686" style="width: 100.0%; height: 100.0%;"><b>Beringen: </b>40930 People.</div>')[0];
+                popup_c12d6cffb77c45e7b46befc111a45b47.setContent(html_24076c8ed5e3413a98eb219db381a686);
+            
+
+            marker_a14d84b8da3849cb882708729d2486d9.bindPopup(popup_c12d6cffb77c45e7b46befc111a45b47);
+
+            
+        
+    
+
+            var marker_b6648ea340ab48468231c3b4fdb2a500 = L.marker(
+                [51.216667,4.25],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_6336d3912df84ec493326d84460a6caf);
+            
+    
+
+                var icon_b252d5cb8102448db4f953499784813c = L.AwesomeMarkers.icon({
+                    icon: 'user',
+                    iconColor: 'white',
+                    markerColor: 'darkgreen',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_b6648ea340ab48468231c3b4fdb2a500.setIcon(icon_b252d5cb8102448db4f953499784813c);
+            
+    
+            var popup_7310516110af42389ee338148ae7d6fb = L.popup({maxWidth: '300'});
+
+            
+                var html_31c9195be91749e388a1f8d21837e9fb = $('<div id="html_31c9195be91749e388a1f8d21837e9fb" style="width: 100.0%; height: 100.0%;"><b>Beveren: </b>45179 People.</div>')[0];
+                popup_7310516110af42389ee338148ae7d6fb.setContent(html_31c9195be91749e388a1f8d21837e9fb);
+            
+
+            marker_b6648ea340ab48468231c3b4fdb2a500.bindPopup(popup_7310516110af42389ee338148ae7d6fb);
+
+            
+        
+    
+
+            var marker_9b47b9b67fd04305ab2ebd25549ffa4a = L.marker(
+                [50.866667,5.516667],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_6336d3912df84ec493326d84460a6caf);
+            
+    
+
+                var icon_89f816abb66c4d3fa721f2e6349a629c = L.AwesomeMarkers.icon({
+                    icon: 'user',
+                    iconColor: 'white',
+                    markerColor: 'darkgreen',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_9b47b9b67fd04305ab2ebd25549ffa4a.setIcon(icon_89f816abb66c4d3fa721f2e6349a629c);
+            
+    
+            var popup_88ad18ee5080421c9c3273e27db9e3a3 = L.popup({maxWidth: '300'});
+
+            
+                var html_f2cfbd0438f14a6b83b9705fd041cc70 = $('<div id="html_f2cfbd0438f14a6b83b9705fd041cc70" style="width: 100.0%; height: 100.0%;"><b>Bilzen: </b>29622 People.</div>')[0];
+                popup_88ad18ee5080421c9c3273e27db9e3a3.setContent(html_f2cfbd0438f14a6b83b9705fd041cc70);
+            
+
+            marker_9b47b9b67fd04305ab2ebd25549ffa4a.bindPopup(popup_88ad18ee5080421c9c3273e27db9e3a3);
+
+            
+        
+    
+
+            var marker_20ba18f5364248f5bcc516731f247f04 = L.marker(
+                [50.4,4.166667],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_6336d3912df84ec493326d84460a6caf);
+            
+    
+
+                var icon_86d21da7ac3647069baaaa3261684dbd = L.AwesomeMarkers.icon({
+                    icon: 'user',
+                    iconColor: 'white',
+                    markerColor: 'darkgreen',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_20ba18f5364248f5bcc516731f247f04.setIcon(icon_86d21da7ac3647069baaaa3261684dbd);
+            
+    
+            var popup_7e1ed48a4a164d59a96118760cb1c365 = L.popup({maxWidth: '300'});
+
+            
+                var html_e4c17071fa41474d8ac17d9b0686367b = $('<div id="html_e4c17071fa41474d8ac17d9b0686367b" style="width: 100.0%; height: 100.0%;"><b>Binche: </b>32030 People.</div>')[0];
+                popup_7e1ed48a4a164d59a96118760cb1c365.setContent(html_e4c17071fa41474d8ac17d9b0686367b);
+            
+
+            marker_20ba18f5364248f5bcc516731f247f04.bindPopup(popup_7e1ed48a4a164d59a96118760cb1c365);
+
+            
+        
+    
+
+            var marker_b90edea649174f97895425410b61bc15 = L.marker(
+                [50.43333300000001,3.8],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_6336d3912df84ec493326d84460a6caf);
+            
+    
+
+                var icon_b1fb7d47ca214c2391d0c2b108115d7c = L.AwesomeMarkers.icon({
+                    icon: 'user',
+                    iconColor: 'white',
+                    markerColor: 'darkgreen',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_b90edea649174f97895425410b61bc15.setIcon(icon_b1fb7d47ca214c2391d0c2b108115d7c);
+            
+    
+            var popup_c41e4968e63146dc92f4d9b7261ba84d = L.popup({maxWidth: '300'});
+
+            
+                var html_05c8fb5727714aa7a730fb2cf6181801 = $('<div id="html_05c8fb5727714aa7a730fb2cf6181801" style="width: 100.0%; height: 100.0%;"><b>Boussu: </b>20058 People.</div>')[0];
+                popup_c41e4968e63146dc92f4d9b7261ba84d.setContent(html_05c8fb5727714aa7a730fb2cf6181801);
+            
+
+            marker_b90edea649174f97895425410b61bc15.bindPopup(popup_c41e4968e63146dc92f4d9b7261ba84d);
+
+            
+        
+    
+
+            var marker_068492bf879347158f96473fc69db4b3 = L.marker(
+                [50.6,4.133333],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_6336d3912df84ec493326d84460a6caf);
+            
+    
+
+                var icon_3d2f8da7c36d480cb526302b07e378b7 = L.AwesomeMarkers.icon({
+                    icon: 'user',
+                    iconColor: 'white',
+                    markerColor: 'darkgreen',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_068492bf879347158f96473fc69db4b3.setIcon(icon_3d2f8da7c36d480cb526302b07e378b7);
+            
+    
+            var popup_693712ca476d4f3faebf06a734c2f186 = L.popup({maxWidth: '300'});
+
+            
+                var html_afb65bcbe8274ac8a3f3d12de630e36b = $('<div id="html_afb65bcbe8274ac8a3f3d12de630e36b" style="width: 100.0%; height: 100.0%;"><b>Braine-le-Comte: </b>20133 People.</div>')[0];
+                popup_693712ca476d4f3faebf06a734c2f186.setContent(html_afb65bcbe8274ac8a3f3d12de630e36b);
+            
+
+            marker_068492bf879347158f96473fc69db4b3.bindPopup(popup_693712ca476d4f3faebf06a734c2f186);
+
+            
+        
+    
+
+            var marker_aef7709aef6e42a68dd0e2a96e22ff81 = L.marker(
+                [51.283333,4.45],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_6336d3912df84ec493326d84460a6caf);
+            
+    
+
+                var icon_edf00b02c635488bbcb9d711fc34ca6b = L.AwesomeMarkers.icon({
+                    icon: 'user',
+                    iconColor: 'white',
+                    markerColor: 'darkgreen',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_aef7709aef6e42a68dd0e2a96e22ff81.setIcon(icon_edf00b02c635488bbcb9d711fc34ca6b);
+            
+    
+            var popup_136ece1fa4414afcae6abb78b34c26f4 = L.popup({maxWidth: '300'});
+
+            
+                var html_94fba9a52c024e0fbf5fdbff2b953c06 = $('<div id="html_94fba9a52c024e0fbf5fdbff2b953c06" style="width: 100.0%; height: 100.0%;"><b>Brasschaat: </b>37040 People.</div>')[0];
+                popup_136ece1fa4414afcae6abb78b34c26f4.setContent(html_94fba9a52c024e0fbf5fdbff2b953c06);
+            
+
+            marker_aef7709aef6e42a68dd0e2a96e22ff81.bindPopup(popup_136ece1fa4414afcae6abb78b34c26f4);
+
+            
+        
+    
+
+            var marker_f5a6ad0bb9184500a6fdb6f6ed5b1283 = L.marker(
+                [51.35,4.633333],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_6336d3912df84ec493326d84460a6caf);
+            
+    
+
+                var icon_bb237a80d407444e9a259fc7a83e1420 = L.AwesomeMarkers.icon({
+                    icon: 'user',
+                    iconColor: 'white',
+                    markerColor: 'darkgreen',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_f5a6ad0bb9184500a6fdb6f6ed5b1283.setIcon(icon_bb237a80d407444e9a259fc7a83e1420);
+            
+    
+            var popup_041ce5550b2f4fbaa1ba359915f68ff3 = L.popup({maxWidth: '300'});
+
+            
+                var html_8e66171e4a7c43c6b20ba09394acd1d1 = $('<div id="html_8e66171e4a7c43c6b20ba09394acd1d1" style="width: 100.0%; height: 100.0%;"><b>Brecht: </b>25908 People.</div>')[0];
+                popup_041ce5550b2f4fbaa1ba359915f68ff3.setContent(html_8e66171e4a7c43c6b20ba09394acd1d1);
+            
+
+            marker_f5a6ad0bb9184500a6fdb6f6ed5b1283.bindPopup(popup_041ce5550b2f4fbaa1ba359915f68ff3);
+
+            
+        
+    
+
+            var marker_55411865272748008a3d0a5cd8abecea = L.marker(
+                [51.216667,3.233333],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_6336d3912df84ec493326d84460a6caf);
+            
+    
+
+                var icon_cb43d3dcbc7243a7932732c4652f46e6 = L.AwesomeMarkers.icon({
+                    icon: 'user',
+                    iconColor: 'white',
+                    markerColor: 'darkgreen',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_55411865272748008a3d0a5cd8abecea.setIcon(icon_cb43d3dcbc7243a7932732c4652f46e6);
+            
+    
+            var popup_3d98dcab02ff4ff88370ca9f01c74741 = L.popup({maxWidth: '300'});
+
+            
+                var html_9c1593f858244bd3905c83ecba5a859b = $('<div id="html_9c1593f858244bd3905c83ecba5a859b" style="width: 100.0%; height: 100.0%;"><b>Brugge: </b>116709 People.</div>')[0];
+                popup_3d98dcab02ff4ff88370ca9f01c74741.setContent(html_9c1593f858244bd3905c83ecba5a859b);
+            
+
+            marker_55411865272748008a3d0a5cd8abecea.bindPopup(popup_3d98dcab02ff4ff88370ca9f01c74741);
+
+            
+        
+    
+
+            var marker_0ec93dc1d22f49339807b24670c7bf29 = L.marker(
+                [50.833333,4.3333330000000005],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_6336d3912df84ec493326d84460a6caf);
+            
+    
+
+                var icon_4f2ac449a9d74707878edfe25b4e855a = L.AwesomeMarkers.icon({
+                    icon: 'user',
+                    iconColor: 'white',
+                    markerColor: 'darkgreen',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_0ec93dc1d22f49339807b24670c7bf29.setIcon(icon_4f2ac449a9d74707878edfe25b4e855a);
+            
+    
+            var popup_7e70af7fec044af7ae62b1206ace5ea5 = L.popup({maxWidth: '300'});
+
+            
+                var html_209ea32fbcd74a2a82483255aa4a949d = $('<div id="html_209ea32fbcd74a2a82483255aa4a949d" style="width: 100.0%; height: 100.0%;"><b>Brussels: </b>1019022 People.</div>')[0];
+                popup_7e70af7fec044af7ae62b1206ace5ea5.setContent(html_209ea32fbcd74a2a82483255aa4a949d);
+            
+
+            marker_0ec93dc1d22f49339807b24670c7bf29.bindPopup(popup_7e70af7fec044af7ae62b1206ace5ea5);
+
+            
+        
+    
+
+            var marker_52dcd7e16ecb494380a198567f200f8f = L.marker(
+                [50.416667,4.433333],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_6336d3912df84ec493326d84460a6caf);
+            
+    
+
+                var icon_45f259fce15843bf93ec26b2cebe0d04 = L.AwesomeMarkers.icon({
+                    icon: 'user',
+                    iconColor: 'white',
+                    markerColor: 'darkgreen',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_52dcd7e16ecb494380a198567f200f8f.setIcon(icon_45f259fce15843bf93ec26b2cebe0d04);
+            
+    
+            var popup_6c09ec73b53d4f4bb7135ce210e6ad77 = L.popup({maxWidth: '300'});
+
+            
+                var html_a1b94353063b45ac802d6f927c82491a = $('<div id="html_a1b94353063b45ac802d6f927c82491a" style="width: 100.0%; height: 100.0%;"><b>Charleroi: </b>200132 People.</div>')[0];
+                popup_6c09ec73b53d4f4bb7135ce210e6ad77.setContent(html_a1b94353063b45ac802d6f927c82491a);
+            
+
+            marker_52dcd7e16ecb494380a198567f200f8f.bindPopup(popup_6c09ec73b53d4f4bb7135ce210e6ad77);
+
+            
+        
+    
+
+            var marker_b641cd82d4b641d29e4225225b24c807 = L.marker(
+                [50.4,4.516667],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_6336d3912df84ec493326d84460a6caf);
+            
+    
+
+                var icon_40c73fea5c384efeb3808d16e2054ff3 = L.AwesomeMarkers.icon({
+                    icon: 'user',
+                    iconColor: 'white',
+                    markerColor: 'darkgreen',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_b641cd82d4b641d29e4225225b24c807.setIcon(icon_40c73fea5c384efeb3808d16e2054ff3);
+            
+    
+            var popup_d8db3007cc194df5add6434644ba370d = L.popup({maxWidth: '300'});
+
+            
+                var html_3712694b7e614dd892d59f543f211e4f = $('<div id="html_3712694b7e614dd892d59f543f211e4f" style="width: 100.0%; height: 100.0%;"><b>Châtelet: </b>35238 People.</div>')[0];
+                popup_d8db3007cc194df5add6434644ba370d.setContent(html_3712694b7e614dd892d59f543f211e4f);
+            
+
+            marker_b641cd82d4b641d29e4225225b24c807.bindPopup(popup_d8db3007cc194df5add6434644ba370d);
+
+            
+        
+    
+
+            var marker_633fcbf035fa483087ad874447dbdc13 = L.marker(
+                [50.583333,5.633333],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_6336d3912df84ec493326d84460a6caf);
+            
+    
+
+                var icon_abb640d422844177aeea7b87f30df9de = L.AwesomeMarkers.icon({
+                    icon: 'user',
+                    iconColor: 'white',
+                    markerColor: 'darkgreen',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_633fcbf035fa483087ad874447dbdc13.setIcon(icon_abb640d422844177aeea7b87f30df9de);
+            
+    
+            var popup_aee217e4a3df4385beb9a1794b7c4fc7 = L.popup({maxWidth: '300'});
+
+            
+                var html_2e7316edcc6c4e6590fffbc804bf3412 = $('<div id="html_2e7316edcc6c4e6590fffbc804bf3412" style="width: 100.0%; height: 100.0%;"><b>Chaudfontaine: </b>20960 People.</div>')[0];
+                popup_aee217e4a3df4385beb9a1794b7c4fc7.setContent(html_2e7316edcc6c4e6590fffbc804bf3412);
+            
+
+            marker_633fcbf035fa483087ad874447dbdc13.bindPopup(popup_aee217e4a3df4385beb9a1794b7c4fc7);
+
+            
+        
+    
+
+            var marker_2965c0e2159f4d478fbce22c9568ed51 = L.marker(
+                [50.466667,4.366667],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_6336d3912df84ec493326d84460a6caf);
+            
+    
+
+                var icon_ac8822c044fe4b168cf392f1d21dd2bf = L.AwesomeMarkers.icon({
+                    icon: 'user',
+                    iconColor: 'white',
+                    markerColor: 'darkgreen',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_2965c0e2159f4d478fbce22c9568ed51.setIcon(icon_ac8822c044fe4b168cf392f1d21dd2bf);
+            
+    
+            var popup_b2187c73151743e08d70c9f80007db09 = L.popup({maxWidth: '300'});
+
+            
+                var html_eb7b6988890d4191a0b82e9817d17e34 = $('<div id="html_eb7b6988890d4191a0b82e9817d17e34" style="width: 100.0%; height: 100.0%;"><b>Courcelles: </b>29473 People.</div>')[0];
+                popup_b2187c73151743e08d70c9f80007db09.setContent(html_eb7b6988890d4191a0b82e9817d17e34);
+            
+
+            marker_2965c0e2159f4d478fbce22c9568ed51.bindPopup(popup_b2187c73151743e08d70c9f80007db09);
+
+            
+        
+    
+
+            var marker_3b7e6dcc6eda4c8a9672626dd1bb3d57 = L.marker(
+                [50.983333,3.5333330000000003],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_6336d3912df84ec493326d84460a6caf);
+            
+    
+
+                var icon_d52e2c2d76e6482bb2aa046b8e9ed70b = L.AwesomeMarkers.icon({
+                    icon: 'user',
+                    iconColor: 'white',
+                    markerColor: 'darkgreen',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_3b7e6dcc6eda4c8a9672626dd1bb3d57.setIcon(icon_d52e2c2d76e6482bb2aa046b8e9ed70b);
+            
+    
+            var popup_3b9bd55efada4f1296cdaec13729b43c = L.popup({maxWidth: '300'});
+
+            
+                var html_d810e7eff3b34dc1b1ae559d10ca7d1b = $('<div id="html_d810e7eff3b34dc1b1ae559d10ca7d1b" style="width: 100.0%; height: 100.0%;"><b>Deinze: </b>27777 People.</div>')[0];
+                popup_3b9bd55efada4f1296cdaec13729b43c.setContent(html_d810e7eff3b34dc1b1ae559d10ca7d1b);
+            
+
+            marker_3b7e6dcc6eda4c8a9672626dd1bb3d57.bindPopup(popup_3b9bd55efada4f1296cdaec13729b43c);
+
+            
+        
+    
+
+            var marker_59f0affe5bd94497a29b3d0abbc18f45 = L.marker(
+                [51.033333,4.116667],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_6336d3912df84ec493326d84460a6caf);
+            
+    
+
+                var icon_d529b38528444ff6a6a4f0cdf9951ea6 = L.AwesomeMarkers.icon({
+                    icon: 'user',
+                    iconColor: 'white',
+                    markerColor: 'darkgreen',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_59f0affe5bd94497a29b3d0abbc18f45.setIcon(icon_d529b38528444ff6a6a4f0cdf9951ea6);
+            
+    
+            var popup_540d80264ffe4dd996a26d51d21d9cce = L.popup({maxWidth: '300'});
+
+            
+                var html_56c6808a8c104de9a229e398c8a4b8ea = $('<div id="html_56c6808a8c104de9a229e398c8a4b8ea" style="width: 100.0%; height: 100.0%;"><b>Dendermonde: </b>43055 People.</div>')[0];
+                popup_540d80264ffe4dd996a26d51d21d9cce.setContent(html_56c6808a8c104de9a229e398c8a4b8ea);
+            
+
+            marker_59f0affe5bd94497a29b3d0abbc18f45.bindPopup(popup_540d80264ffe4dd996a26d51d21d9cce);
+
+            
+        
+    
+
+            var marker_2d6e1b84c0ab4a198d83a1bb6d459ac2 = L.marker(
+                [50.983333,5.05],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_6336d3912df84ec493326d84460a6caf);
+            
+    
+
+                var icon_ef1e3a6a1e5f460698ac3efa62133c14 = L.AwesomeMarkers.icon({
+                    icon: 'user',
+                    iconColor: 'white',
+                    markerColor: 'darkgreen',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_2d6e1b84c0ab4a198d83a1bb6d459ac2.setIcon(icon_ef1e3a6a1e5f460698ac3efa62133c14);
+            
+    
+            var popup_79d266eba12f4d4ab3ce729b33663553 = L.popup({maxWidth: '300'});
+
+            
+                var html_a15b7037eb494871b13cd9682ea82f30 = $('<div id="html_a15b7037eb494871b13cd9682ea82f30" style="width: 100.0%; height: 100.0%;"><b>Diest: </b>22516 People.</div>')[0];
+                popup_79d266eba12f4d4ab3ce729b33663553.setContent(html_a15b7037eb494871b13cd9682ea82f30);
+            
+
+            marker_2d6e1b84c0ab4a198d83a1bb6d459ac2.bindPopup(popup_79d266eba12f4d4ab3ce729b33663553);
+
+            
+        
+    
+
+            var marker_d50aeec83e1d4af5b2d94b78381a7bee = L.marker(
+                [50.85,4.266667],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_6336d3912df84ec493326d84460a6caf);
+            
+    
+
+                var icon_b59e0843747a47f2b4ec084e4632f7bf = L.AwesomeMarkers.icon({
+                    icon: 'user',
+                    iconColor: 'white',
+                    markerColor: 'darkgreen',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_d50aeec83e1d4af5b2d94b78381a7bee.setIcon(icon_b59e0843747a47f2b4ec084e4632f7bf);
+            
+    
+            var popup_6d51d115b51f4780bab01886cb8f49c1 = L.popup({maxWidth: '300'});
+
+            
+                var html_20782b91d7e2489e8e01930b8e3ccf9c = $('<div id="html_20782b91d7e2489e8e01930b8e3ccf9c" style="width: 100.0%; height: 100.0%;"><b>Dilbeek: </b>39482 People.</div>')[0];
+                popup_6d51d115b51f4780bab01886cb8f49c1.setContent(html_20782b91d7e2489e8e01930b8e3ccf9c);
+            
+
+            marker_d50aeec83e1d4af5b2d94b78381a7bee.bindPopup(popup_6d51d115b51f4780bab01886cb8f49c1);
+
+            
+        
+    
+
+            var marker_761c601400d442738c51067dd7375f96 = L.marker(
+                [51.15,4.45],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_6336d3912df84ec493326d84460a6caf);
+            
+    
+
+                var icon_08ae5c5afca44921b92b3b591cb00c9e = L.AwesomeMarkers.icon({
+                    icon: 'user',
+                    iconColor: 'white',
+                    markerColor: 'darkgreen',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_761c601400d442738c51067dd7375f96.setIcon(icon_08ae5c5afca44921b92b3b591cb00c9e);
+            
+    
+            var popup_03aaac3d64a64c12bd5b11a76ebff288 = L.popup({maxWidth: '300'});
+
+            
+                var html_0ee04d692c7a4d03b705358ce1a01839 = $('<div id="html_0ee04d692c7a4d03b705358ce1a01839" style="width: 100.0%; height: 100.0%;"><b>Edegem: </b>21839 People.</div>')[0];
+                popup_03aaac3d64a64c12bd5b11a76ebff288.setContent(html_0ee04d692c7a4d03b705358ce1a01839);
+            
+
+            marker_761c601400d442738c51067dd7375f96.bindPopup(popup_03aaac3d64a64c12bd5b11a76ebff288);
+
+            
+        
+    
+
+            var marker_288967fd6bea4ce8a1c5348218cf939e = L.marker(
+                [51.116667,3.7],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_6336d3912df84ec493326d84460a6caf);
+            
+    
+
+                var icon_ce3acb21adb640f3872a3ba5fc439ec1 = L.AwesomeMarkers.icon({
+                    icon: 'user',
+                    iconColor: 'white',
+                    markerColor: 'darkgreen',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_288967fd6bea4ce8a1c5348218cf939e.setIcon(icon_ce3acb21adb640f3872a3ba5fc439ec1);
+            
+    
+            var popup_890f522a8bb34bd39ef18e426a7150a4 = L.popup({maxWidth: '300'});
+
+            
+                var html_b478694fca26438299ec0f47a30ebaef = $('<div id="html_b478694fca26438299ec0f47a30ebaef" style="width: 100.0%; height: 100.0%;"><b>Evergem: </b>31615 People.</div>')[0];
+                popup_890f522a8bb34bd39ef18e426a7150a4.setContent(html_b478694fca26438299ec0f47a30ebaef);
+            
+
+            marker_288967fd6bea4ce8a1c5348218cf939e.bindPopup(popup_890f522a8bb34bd39ef18e426a7150a4);
+
+            
+        
+    
+
+            var marker_c5dc62f7c1aa4c0cbfecf3fc54aa3e92 = L.marker(
+                [50.483333,4.533333],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_6336d3912df84ec493326d84460a6caf);
+            
+    
+
+                var icon_d96bc2b7aba940f1b22d549e2927a601 = L.AwesomeMarkers.icon({
+                    icon: 'user',
+                    iconColor: 'white',
+                    markerColor: 'darkgreen',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_c5dc62f7c1aa4c0cbfecf3fc54aa3e92.setIcon(icon_d96bc2b7aba940f1b22d549e2927a601);
+            
+    
+            var popup_2b7224065b4f4b309fa068bfece83e8d = L.popup({maxWidth: '300'});
+
+            
+                var html_41528303b210449089a278edad804b36 = $('<div id="html_41528303b210449089a278edad804b36" style="width: 100.0%; height: 100.0%;"><b>Fleurus: </b>22080 People.</div>')[0];
+                popup_2b7224065b4f4b309fa068bfece83e8d.setContent(html_41528303b210449089a278edad804b36);
+            
+
+            marker_c5dc62f7c1aa4c0cbfecf3fc54aa3e92.bindPopup(popup_2b7224065b4f4b309fa068bfece83e8d);
+
+            
+        
+    
+
+            var marker_bae431b9b2ae4673ba987507ca4d8cda = L.marker(
+                [50.4,3.9],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_6336d3912df84ec493326d84460a6caf);
+            
+    
+
+                var icon_06668560d7524266a9fa11c468b61e61 = L.AwesomeMarkers.icon({
+                    icon: 'user',
+                    iconColor: 'white',
+                    markerColor: 'darkgreen',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_bae431b9b2ae4673ba987507ca4d8cda.setIcon(icon_06668560d7524266a9fa11c468b61e61);
+            
+    
+            var popup_fc6de12dffca4ef3873a9e2698ad430b = L.popup({maxWidth: '300'});
+
+            
+                var html_6afed0bc2ffd4de5a23269f52efdfdab = $('<div id="html_6afed0bc2ffd4de5a23269f52efdfdab" style="width: 100.0%; height: 100.0%;"><b>Frameries: </b>20598 People.</div>')[0];
+                popup_fc6de12dffca4ef3873a9e2698ad430b.setContent(html_6afed0bc2ffd4de5a23269f52efdfdab);
+            
+
+            marker_bae431b9b2ae4673ba987507ca4d8cda.bindPopup(popup_fc6de12dffca4ef3873a9e2698ad430b);
+
+            
+        
+    
+
+            var marker_521420f60771453d9a981b2dc8678525 = L.marker(
+                [51.166667,5.0],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_6336d3912df84ec493326d84460a6caf);
+            
+    
+
+                var icon_5d591f13d3674396bdc4db6d4e6f6fab = L.AwesomeMarkers.icon({
+                    icon: 'user',
+                    iconColor: 'white',
+                    markerColor: 'darkgreen',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_521420f60771453d9a981b2dc8678525.setIcon(icon_5d591f13d3674396bdc4db6d4e6f6fab);
+            
+    
+            var popup_6c6259ec5de14bc6893f1d57db649d35 = L.popup({maxWidth: '300'});
+
+            
+                var html_41062d996cc6497ea58d5e0e189a04d2 = $('<div id="html_41062d996cc6497ea58d5e0e189a04d2" style="width: 100.0%; height: 100.0%;"><b>Geel: </b>34697 People.</div>')[0];
+                popup_6c6259ec5de14bc6893f1d57db649d35.setContent(html_41062d996cc6497ea58d5e0e189a04d2);
+            
+
+            marker_521420f60771453d9a981b2dc8678525.bindPopup(popup_6c6259ec5de14bc6893f1d57db649d35);
+
+            
+        
+    
+
+            var marker_c7e16581e4e84621abf446b48f96645b = L.marker(
+                [50.566667,4.683333],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_6336d3912df84ec493326d84460a6caf);
+            
+    
+
+                var icon_f6ef584555524b978e9892da4e459ac5 = L.AwesomeMarkers.icon({
+                    icon: 'user',
+                    iconColor: 'white',
+                    markerColor: 'darkgreen',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_c7e16581e4e84621abf446b48f96645b.setIcon(icon_f6ef584555524b978e9892da4e459ac5);
+            
+    
+            var popup_a4848909b82440c18263fb1f10ce7a0b = L.popup({maxWidth: '300'});
+
+            
+                var html_8fde5a1c24494ca39f5e2b40c8cf2006 = $('<div id="html_8fde5a1c24494ca39f5e2b40c8cf2006" style="width: 100.0%; height: 100.0%;"><b>Gembloux: </b>21676 People.</div>')[0];
+                popup_a4848909b82440c18263fb1f10ce7a0b.setContent(html_8fde5a1c24494ca39f5e2b40c8cf2006);
+            
+
+            marker_c7e16581e4e84621abf446b48f96645b.bindPopup(popup_a4848909b82440c18263fb1f10ce7a0b);
+
+            
+        
+    
+
+            var marker_7f62d549e5aa4d68bec13ba140a06940 = L.marker(
+                [50.966667,5.5],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_6336d3912df84ec493326d84460a6caf);
+            
+    
+
+                var icon_ebdd1cd16dcf49c385d70cd6cffe2103 = L.AwesomeMarkers.icon({
+                    icon: 'user',
+                    iconColor: 'white',
+                    markerColor: 'darkgreen',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_7f62d549e5aa4d68bec13ba140a06940.setIcon(icon_ebdd1cd16dcf49c385d70cd6cffe2103);
+            
+    
+            var popup_94d740360b3f4743938a7fa7dae31f9b = L.popup({maxWidth: '300'});
+
+            
+                var html_128ccdc39c054524834d7cfe872895c3 = $('<div id="html_128ccdc39c054524834d7cfe872895c3" style="width: 100.0%; height: 100.0%;"><b>Genk: </b>63666 People.</div>')[0];
+                popup_94d740360b3f4743938a7fa7dae31f9b.setContent(html_128ccdc39c054524834d7cfe872895c3);
+            
+
+            marker_7f62d549e5aa4d68bec13ba140a06940.bindPopup(popup_94d740360b3f4743938a7fa7dae31f9b);
+
+            
+        
+    
+
+            var marker_db7022e7a5c74705a0d475c6a456a90d = L.marker(
+                [51.05,3.716667],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_6336d3912df84ec493326d84460a6caf);
+            
+    
+
+                var icon_cb13190c3aed460d90fddb2c676b652d = L.AwesomeMarkers.icon({
+                    icon: 'user',
+                    iconColor: 'white',
+                    markerColor: 'darkgreen',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_db7022e7a5c74705a0d475c6a456a90d.setIcon(icon_cb13190c3aed460d90fddb2c676b652d);
+            
+    
+            var popup_64eb2de9eefa4ca483c9e98bd388f6e6 = L.popup({maxWidth: '300'});
+
+            
+                var html_5ec661d696b14e8097ec0c753fe47c7e = $('<div id="html_5ec661d696b14e8097ec0c753fe47c7e" style="width: 100.0%; height: 100.0%;"><b>Gent: </b>231493 People.</div>')[0];
+                popup_64eb2de9eefa4ca483c9e98bd388f6e6.setContent(html_5ec661d696b14e8097ec0c753fe47c7e);
+            
+
+            marker_db7022e7a5c74705a0d475c6a456a90d.bindPopup(popup_64eb2de9eefa4ca483c9e98bd388f6e6);
+
+            
+        
+    
+
+            var marker_e227896d05f149d680a81ffa6ad798aa = L.marker(
+                [50.766667,3.866667],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_6336d3912df84ec493326d84460a6caf);
+            
+    
+
+                var icon_234f916b5fbe4b56a52562239444482e = L.AwesomeMarkers.icon({
+                    icon: 'user',
+                    iconColor: 'white',
+                    markerColor: 'darkgreen',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_e227896d05f149d680a81ffa6ad798aa.setIcon(icon_234f916b5fbe4b56a52562239444482e);
+            
+    
+            var popup_f203b662029b4eb5bedd64ab8e55cc36 = L.popup({maxWidth: '300'});
+
+            
+                var html_3348eeed4ce74ec5b3942904d632538f = $('<div id="html_3348eeed4ce74ec5b3942904d632538f" style="width: 100.0%; height: 100.0%;"><b>Geraardsbergen: </b>30807 People.</div>')[0];
+                popup_f203b662029b4eb5bedd64ab8e55cc36.setContent(html_3348eeed4ce74ec5b3942904d632538f);
+            
+
+            marker_e227896d05f149d680a81ffa6ad798aa.bindPopup(popup_f203b662029b4eb5bedd64ab8e55cc36);
+
+            
+        
+    
+
+            var marker_d068d1e7a5764a508be110d293420a81 = L.marker(
+                [50.93333300000001,4.383333],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_6336d3912df84ec493326d84460a6caf);
+            
+    
+
+                var icon_65c689792200472880b58ff103b461c0 = L.AwesomeMarkers.icon({
+                    icon: 'user',
+                    iconColor: 'white',
+                    markerColor: 'darkgreen',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_d068d1e7a5764a508be110d293420a81.setIcon(icon_65c689792200472880b58ff103b461c0);
+            
+    
+            var popup_430e7a47c66842f2a84b5885b144909d = L.popup({maxWidth: '300'});
+
+            
+                var html_7c9454dd1f614607ad13ca5496e30e37 = $('<div id="html_7c9454dd1f614607ad13ca5496e30e37" style="width: 100.0%; height: 100.0%;"><b>Grimbergen: </b>33561 People.</div>')[0];
+                popup_430e7a47c66842f2a84b5885b144909d.setContent(html_7c9454dd1f614607ad13ca5496e30e37);
+            
+
+            marker_d068d1e7a5764a508be110d293420a81.bindPopup(popup_430e7a47c66842f2a84b5885b144909d);
+
+            
+        
+    
+
+            var marker_7bcf3bd87d664ff2bb05d2487ef9786c = L.marker(
+                [50.733333,4.233333],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_6336d3912df84ec493326d84460a6caf);
+            
+    
+
+                var icon_df599ee40bae4a45939c435d409aa2d2 = L.AwesomeMarkers.icon({
+                    icon: 'user',
+                    iconColor: 'white',
+                    markerColor: 'darkgreen',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_7bcf3bd87d664ff2bb05d2487ef9786c.setIcon(icon_df599ee40bae4a45939c435d409aa2d2);
+            
+    
+            var popup_9f51e4b6fc094e0497a6ff6c81f42dbe = L.popup({maxWidth: '300'});
+
+            
+                var html_789040ac908d4e43a55266224eacd927 = $('<div id="html_789040ac908d4e43a55266224eacd927" style="width: 100.0%; height: 100.0%;"><b>Halle: </b>34479 People.</div>')[0];
+                popup_9f51e4b6fc094e0497a6ff6c81f42dbe.setContent(html_789040ac908d4e43a55266224eacd927);
+            
+
+            marker_7bcf3bd87d664ff2bb05d2487ef9786c.bindPopup(popup_9f51e4b6fc094e0497a6ff6c81f42dbe);
+
+            
+        
+    
+
+            var marker_4817a910f5f6488c947f1ef2f499487a = L.marker(
+                [51.1,4.133333],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_6336d3912df84ec493326d84460a6caf);
+            
+    
+
+                var icon_602edab68fb148a58e46cb2858dfe650 = L.AwesomeMarkers.icon({
+                    icon: 'user',
+                    iconColor: 'white',
+                    markerColor: 'darkgreen',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_4817a910f5f6488c947f1ef2f499487a.setIcon(icon_602edab68fb148a58e46cb2858dfe650);
+            
+    
+            var popup_655bf49610054fc7b2366946cdef8380 = L.popup({maxWidth: '300'});
+
+            
+                var html_5c2c55afcf564d98841973ac02f68de2 = $('<div id="html_5c2c55afcf564d98841973ac02f68de2" style="width: 100.0%; height: 100.0%;"><b>Hamme: </b>22891 People.</div>')[0];
+                popup_655bf49610054fc7b2366946cdef8380.setContent(html_5c2c55afcf564d98841973ac02f68de2);
+            
+
+            marker_4817a910f5f6488c947f1ef2f499487a.bindPopup(popup_655bf49610054fc7b2366946cdef8380);
+
+            
+        
+    
+
+            var marker_61830cedf07649a6a6f3515bd5f74fef = L.marker(
+                [50.85,3.3],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_6336d3912df84ec493326d84460a6caf);
+            
+    
+
+                var icon_c2a4631a954d464e8a631cd3b369a341 = L.AwesomeMarkers.icon({
+                    icon: 'user',
+                    iconColor: 'white',
+                    markerColor: 'darkgreen',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_61830cedf07649a6a6f3515bd5f74fef.setIcon(icon_c2a4631a954d464e8a631cd3b369a341);
+            
+    
+            var popup_510c1249e0384e789fd9ce36e4c03f53 = L.popup({maxWidth: '300'});
+
+            
+                var html_f3dc6766e85d4023b0fd64d279e20cfe = $('<div id="html_f3dc6766e85d4023b0fd64d279e20cfe" style="width: 100.0%; height: 100.0%;"><b>Harelbeke: </b>25978 People.</div>')[0];
+                popup_510c1249e0384e789fd9ce36e4c03f53.setContent(html_f3dc6766e85d4023b0fd64d279e20cfe);
+            
+
+            marker_61830cedf07649a6a6f3515bd5f74fef.bindPopup(popup_510c1249e0384e789fd9ce36e4c03f53);
+
+            
+        
+    
+
+            var marker_8ccf7d364cf34bc88623abe49c094639 = L.marker(
+                [50.93333300000001,5.3333330000000005],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_6336d3912df84ec493326d84460a6caf);
+            
+    
+
+                var icon_c458089c838d432a9ebeea15c04fe658 = L.AwesomeMarkers.icon({
+                    icon: 'user',
+                    iconColor: 'white',
+                    markerColor: 'darkgreen',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_8ccf7d364cf34bc88623abe49c094639.setIcon(icon_c458089c838d432a9ebeea15c04fe658);
+            
+    
+            var popup_52968ca6e4f04050b939dda84356a316 = L.popup({maxWidth: '300'});
+
+            
+                var html_c6a01ba7d8a64fc88af03e68eeb99107 = $('<div id="html_c6a01ba7d8a64fc88af03e68eeb99107" style="width: 100.0%; height: 100.0%;"><b>Hasselt: </b>69222 People.</div>')[0];
+                popup_52968ca6e4f04050b939dda84356a316.setContent(html_c6a01ba7d8a64fc88af03e68eeb99107);
+            
+
+            marker_8ccf7d364cf34bc88623abe49c094639.bindPopup(popup_52968ca6e4f04050b939dda84356a316);
+
+            
+        
+    
+
+            var marker_51bbd9205a654e25990cce1da740ea54 = L.marker(
+                [51.083333,4.716667],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_6336d3912df84ec493326d84460a6caf);
+            
+    
+
+                var icon_699e0609cde24f30983e6e8299f59c51 = L.AwesomeMarkers.icon({
+                    icon: 'user',
+                    iconColor: 'white',
+                    markerColor: 'darkgreen',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_51bbd9205a654e25990cce1da740ea54.setIcon(icon_699e0609cde24f30983e6e8299f59c51);
+            
+    
+            var popup_c05d62821a5a4f3fb34c96a65d713532 = L.popup({maxWidth: '300'});
+
+            
+                var html_1b9790af9256479893043cbcaa34f43b = $('<div id="html_1b9790af9256479893043cbcaa34f43b" style="width: 100.0%; height: 100.0%;"><b>Heist-op-den-Berg: </b>37873 People.</div>')[0];
+                popup_c05d62821a5a4f3fb34c96a65d713532.setContent(html_1b9790af9256479893043cbcaa34f43b);
+            
+
+            marker_51bbd9205a654e25990cce1da740ea54.bindPopup(popup_c05d62821a5a4f3fb34c96a65d713532);
+
+            
+        
+    
+
+            var marker_0b20e72fe09947e4aecd0a9ae4e6fed8 = L.marker(
+                [51.18333300000001,4.8333330000000005],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_6336d3912df84ec493326d84460a6caf);
+            
+    
+
+                var icon_b2704ceeafb046d58c1aca67ec3decf3 = L.AwesomeMarkers.icon({
+                    icon: 'user',
+                    iconColor: 'white',
+                    markerColor: 'darkgreen',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_0b20e72fe09947e4aecd0a9ae4e6fed8.setIcon(icon_b2704ceeafb046d58c1aca67ec3decf3);
+            
+    
+            var popup_0c07da6be9454fecbbdc978d9325caf0 = L.popup({maxWidth: '300'});
+
+            
+                var html_656d9a9563434c2cb0b28fb957749f6b = $('<div id="html_656d9a9563434c2cb0b28fb957749f6b" style="width: 100.0%; height: 100.0%;"><b>Herentals: </b>25912 People.</div>')[0];
+                popup_0c07da6be9454fecbbdc978d9325caf0.setContent(html_656d9a9563434c2cb0b28fb957749f6b);
+            
+
+            marker_0b20e72fe09947e4aecd0a9ae4e6fed8.bindPopup(popup_0c07da6be9454fecbbdc978d9325caf0);
+
+            
+        
+    
+
+            var marker_79a667180ff345b880eaf44407eb0564 = L.marker(
+                [50.666667,5.633333],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_6336d3912df84ec493326d84460a6caf);
+            
+    
+
+                var icon_3c4a71ef737c4ce6990289ac0d7acc7d = L.AwesomeMarkers.icon({
+                    icon: 'user',
+                    iconColor: 'white',
+                    markerColor: 'darkgreen',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_79a667180ff345b880eaf44407eb0564.setIcon(icon_3c4a71ef737c4ce6990289ac0d7acc7d);
+            
+    
+            var popup_5d690348fe724f5093b97e9589befa79 = L.popup({maxWidth: '300'});
+
+            
+                var html_3b3dd8308b4442708b43b94c913f502f = $('<div id="html_3b3dd8308b4442708b43b94c913f502f" style="width: 100.0%; height: 100.0%;"><b>Herstal: </b>36503 People.</div>')[0];
+                popup_5d690348fe724f5093b97e9589befa79.setContent(html_3b3dd8308b4442708b43b94c913f502f);
+            
+
+            marker_79a667180ff345b880eaf44407eb0564.bindPopup(popup_5d690348fe724f5093b97e9589befa79);
+
+            
+        
+    
+
+            var marker_b8ad5c3b085d4a55bf979ac13b66a1fe = L.marker(
+                [50.85,2.8833330000000004],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_6336d3912df84ec493326d84460a6caf);
+            
+    
+
+                var icon_0d96a89eccc9427d9cf2457616b15262 = L.AwesomeMarkers.icon({
+                    icon: 'user',
+                    iconColor: 'white',
+                    markerColor: 'darkgreen',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_b8ad5c3b085d4a55bf979ac13b66a1fe.setIcon(icon_0d96a89eccc9427d9cf2457616b15262);
+            
+    
+            var popup_dfbf96df5675494db69dd1f547a6f420 = L.popup({maxWidth: '300'});
+
+            
+                var html_092ae89032ac458c8bae646f61ce2cb8 = $('<div id="html_092ae89032ac458c8bae646f61ce2cb8" style="width: 100.0%; height: 100.0%;"><b>Ieper: </b>35089 People.</div>')[0];
+                popup_dfbf96df5675494db69dd1f547a6f420.setContent(html_092ae89032ac458c8bae646f61ce2cb8);
+            
+
+            marker_b8ad5c3b085d4a55bf979ac13b66a1fe.bindPopup(popup_dfbf96df5675494db69dd1f547a6f420);
+
+            
+        
+    
+
+            var marker_3c47f1d2902e44f7996842e296f00932 = L.marker(
+                [50.916667,3.2],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_6336d3912df84ec493326d84460a6caf);
+            
+    
+
+                var icon_6400ee34b2464087a08ddece85352413 = L.AwesomeMarkers.icon({
+                    icon: 'user',
+                    iconColor: 'white',
+                    markerColor: 'darkgreen',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_3c47f1d2902e44f7996842e296f00932.setIcon(icon_6400ee34b2464087a08ddece85352413);
+            
+    
+            var popup_81ca62c98896485d847ec4b401e2de66 = L.popup({maxWidth: '300'});
+
+            
+                var html_e2b78f02b1fe4173a0333a66fff3a259 = $('<div id="html_e2b78f02b1fe4173a0333a66fff3a259" style="width: 100.0%; height: 100.0%;"><b>Izegem: </b>26382 People.</div>')[0];
+                popup_81ca62c98896485d847ec4b401e2de66.setContent(html_e2b78f02b1fe4173a0333a66fff3a259);
+            
+
+            marker_3c47f1d2902e44f7996842e296f00932.bindPopup(popup_81ca62c98896485d847ec4b401e2de66);
+
+            
+        
+    
+
+            var marker_cc9e3dec92df4c8fb3c6055fa413de0b = L.marker(
+                [51.316667,4.433333],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_6336d3912df84ec493326d84460a6caf);
+            
+    
+
+                var icon_e535d2fcc0bb4e849a6e3ecb5cd611cf = L.AwesomeMarkers.icon({
+                    icon: 'user',
+                    iconColor: 'white',
+                    markerColor: 'darkgreen',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_cc9e3dec92df4c8fb3c6055fa413de0b.setIcon(icon_e535d2fcc0bb4e849a6e3ecb5cd611cf);
+            
+    
+            var popup_02a6a3a6445647229056db83bab2f31c = L.popup({maxWidth: '300'});
+
+            
+                var html_dd6b958673f247b7b45b83a4ca8ec851 = $('<div id="html_dd6b958673f247b7b45b83a4ca8ec851" style="width: 100.0%; height: 100.0%;"><b>Kapellen: </b>26410 People.</div>')[0];
+                popup_02a6a3a6445647229056db83bab2f31c.setContent(html_dd6b958673f247b7b45b83a4ca8ec851);
+            
+
+            marker_cc9e3dec92df4c8fb3c6055fa413de0b.bindPopup(popup_02a6a3a6445647229056db83bab2f31c);
+
+            
+        
+    
+
+            var marker_f7d978f3d8974764b1c309eb7c7e4673 = L.marker(
+                [51.35,3.266667],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_6336d3912df84ec493326d84460a6caf);
+            
+    
+
+                var icon_8e632c046e4742b69f585feff8473046 = L.AwesomeMarkers.icon({
+                    icon: 'user',
+                    iconColor: 'white',
+                    markerColor: 'darkgreen',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_f7d978f3d8974764b1c309eb7c7e4673.setIcon(icon_8e632c046e4742b69f585feff8473046);
+            
+    
+            var popup_2db219841fda4620a1bfe5c6218acce9 = L.popup({maxWidth: '300'});
+
+            
+                var html_7306104ea58f4ea49b310e3c428a61f2 = $('<div id="html_7306104ea58f4ea49b310e3c428a61f2" style="width: 100.0%; height: 100.0%;"><b>Knokke-Heist: </b>33781 People.</div>')[0];
+                popup_2db219841fda4620a1bfe5c6218acce9.setContent(html_7306104ea58f4ea49b310e3c428a61f2);
+            
+
+            marker_f7d978f3d8974764b1c309eb7c7e4673.bindPopup(popup_2db219841fda4620a1bfe5c6218acce9);
+
+            
+        
+    
+
+            var marker_ab068dfbe158481795dbbade41d1ba8a = L.marker(
+                [51.1,2.65],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_6336d3912df84ec493326d84460a6caf);
+            
+    
+
+                var icon_8c6390f27f934e188956636796226272 = L.AwesomeMarkers.icon({
+                    icon: 'user',
+                    iconColor: 'white',
+                    markerColor: 'darkgreen',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_ab068dfbe158481795dbbade41d1ba8a.setIcon(icon_8c6390f27f934e188956636796226272);
+            
+    
+            var popup_ae90dafb73cb47019714b26726f50939 = L.popup({maxWidth: '300'});
+
+            
+                var html_0bb95c2e772b467caaf87f3b385822a7 = $('<div id="html_0bb95c2e772b467caaf87f3b385822a7" style="width: 100.0%; height: 100.0%;"><b>Koksijde: </b>21027 People.</div>')[0];
+                popup_ae90dafb73cb47019714b26726f50939.setContent(html_0bb95c2e772b467caaf87f3b385822a7);
+            
+
+            marker_ab068dfbe158481795dbbade41d1ba8a.bindPopup(popup_ae90dafb73cb47019714b26726f50939);
+
+            
+        
+    
+
+            var marker_53b531c57d054cc78f490bfdc5720a12 = L.marker(
+                [51.133333,4.45],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_6336d3912df84ec493326d84460a6caf);
+            
+    
+
+                var icon_b728fafb6600404e93632eb0745f29cc = L.AwesomeMarkers.icon({
+                    icon: 'user',
+                    iconColor: 'white',
+                    markerColor: 'darkgreen',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_53b531c57d054cc78f490bfdc5720a12.setIcon(icon_b728fafb6600404e93632eb0745f29cc);
+            
+    
+            var popup_5537c8eef44e4d8699c10febbaa5183b = L.popup({maxWidth: '300'});
+
+            
+                var html_fff3bbc4249c4c7fb40b55978f8d323d = $('<div id="html_fff3bbc4249c4c7fb40b55978f8d323d" style="width: 100.0%; height: 100.0%;"><b>Kontich: </b>20290 People.</div>')[0];
+                popup_5537c8eef44e4d8699c10febbaa5183b.setContent(html_fff3bbc4249c4c7fb40b55978f8d323d);
+            
+
+            marker_53b531c57d054cc78f490bfdc5720a12.bindPopup(popup_5537c8eef44e4d8699c10febbaa5183b);
+
+            
+        
+    
+
+            var marker_5d337f2834a347b2b86eed3b2c7e3a24 = L.marker(
+                [50.833333,3.266667],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_6336d3912df84ec493326d84460a6caf);
+            
+    
+
+                var icon_a534968289e0471689800b7577607d2d = L.AwesomeMarkers.icon({
+                    icon: 'user',
+                    iconColor: 'white',
+                    markerColor: 'darkgreen',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_5d337f2834a347b2b86eed3b2c7e3a24.setIcon(icon_a534968289e0471689800b7577607d2d);
+            
+    
+            var popup_d5c96e72170e4210a6988665ff996035 = L.popup({maxWidth: '300'});
+
+            
+                var html_d4a48bcfc5fc49e09ee6da9091511620 = $('<div id="html_d4a48bcfc5fc49e09ee6da9091511620" style="width: 100.0%; height: 100.0%;"><b>Kortrijk: </b>73879 People.</div>')[0];
+                popup_d5c96e72170e4210a6988665ff996035.setContent(html_d4a48bcfc5fc49e09ee6da9091511620);
+            
+
+            marker_5d337f2834a347b2b86eed3b2c7e3a24.bindPopup(popup_d5c96e72170e4210a6988665ff996035);
+
+            
+        
+    
+
+            var marker_6c54933bd0df4bbab04ceac00b54f865 = L.marker(
+                [50.466667,4.183333],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_6336d3912df84ec493326d84460a6caf);
+            
+    
+
+                var icon_3d8fec899d874391a0c092316ca1904a = L.AwesomeMarkers.icon({
+                    icon: 'user',
+                    iconColor: 'white',
+                    markerColor: 'darkgreen',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_6c54933bd0df4bbab04ceac00b54f865.setIcon(icon_3d8fec899d874391a0c092316ca1904a);
+            
+    
+            var popup_a50dcf381d064141aa2690384591397f = L.popup({maxWidth: '300'});
+
+            
+                var html_ce07bd8dd9a5412880f1f754d9d75876 = $('<div id="html_ce07bd8dd9a5412880f1f754d9d75876" style="width: 100.0%; height: 100.0%;"><b>La Louvière: </b>76668 People.</div>')[0];
+                popup_a50dcf381d064141aa2690384591397f.setContent(html_ce07bd8dd9a5412880f1f754d9d75876);
+            
+
+            marker_6c54933bd0df4bbab04ceac00b54f865.bindPopup(popup_a50dcf381d064141aa2690384591397f);
+
+            
+        
+    
+
+            var marker_d7cdf03414a74d648b8c18cebad1efe0 = L.marker(
+                [50.883333,5.65],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_6336d3912df84ec493326d84460a6caf);
+            
+    
+
+                var icon_564cacad36514d8086c44c87d3dd92c2 = L.AwesomeMarkers.icon({
+                    icon: 'user',
+                    iconColor: 'white',
+                    markerColor: 'darkgreen',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_d7cdf03414a74d648b8c18cebad1efe0.setIcon(icon_564cacad36514d8086c44c87d3dd92c2);
+            
+    
+            var popup_7ae620e999904d07be0d0d4116db7419 = L.popup({maxWidth: '300'});
+
+            
+                var html_eee32bc8531f4fada759979a98b875b1 = $('<div id="html_eee32bc8531f4fada759979a98b875b1" style="width: 100.0%; height: 100.0%;"><b>Lanaken: </b>24771 People.</div>')[0];
+                popup_7ae620e999904d07be0d0d4116db7419.setContent(html_eee32bc8531f4fada759979a98b875b1);
+            
+
+            marker_d7cdf03414a74d648b8c18cebad1efe0.bindPopup(popup_7ae620e999904d07be0d0d4116db7419);
+
+            
+        
+    
+
+            var marker_289cd9fbb4df4ac1b3a9ae528ab4a5c6 = L.marker(
+                [50.883333,4.7],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_6336d3912df84ec493326d84460a6caf);
+            
+    
+
+                var icon_5c9aae27a8aa4c988cc748d9a2952580 = L.AwesomeMarkers.icon({
+                    icon: 'user',
+                    iconColor: 'white',
+                    markerColor: 'darkgreen',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_289cd9fbb4df4ac1b3a9ae528ab4a5c6.setIcon(icon_5c9aae27a8aa4c988cc748d9a2952580);
+            
+    
+            var popup_1e61c10ebce947df9541dfaaee1a37fa = L.popup({maxWidth: '300'});
+
+            
+                var html_af539e9827864140a842c232109b3197 = $('<div id="html_af539e9827864140a842c232109b3197" style="width: 100.0%; height: 100.0%;"><b>Leuven: </b>92892 People.</div>')[0];
+                popup_1e61c10ebce947df9541dfaaee1a37fa.setContent(html_af539e9827864140a842c232109b3197);
+            
+
+            marker_289cd9fbb4df4ac1b3a9ae528ab4a5c6.bindPopup(popup_1e61c10ebce947df9541dfaaee1a37fa);
+
+            
+        
+    
+
+            var marker_fdc9ac3cbe8248498c397d30fc01fa73 = L.marker(
+                [50.633333,5.566667],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_6336d3912df84ec493326d84460a6caf);
+            
+    
+
+                var icon_aa037ca381dc421c965068fe8485c2f6 = L.AwesomeMarkers.icon({
+                    icon: 'user',
+                    iconColor: 'white',
+                    markerColor: 'darkgreen',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_fdc9ac3cbe8248498c397d30fc01fa73.setIcon(icon_aa037ca381dc421c965068fe8485c2f6);
+            
+    
+            var popup_cf32533b676144b288fd2129ad687e30 = L.popup({maxWidth: '300'});
+
+            
+                var html_3533583a608941eea1455bd2ec3352f8 = $('<div id="html_3533583a608941eea1455bd2ec3352f8" style="width: 100.0%; height: 100.0%;"><b>Liège: </b>182597 People.</div>')[0];
+                popup_cf32533b676144b288fd2129ad687e30.setContent(html_3533583a608941eea1455bd2ec3352f8);
+            
+
+            marker_fdc9ac3cbe8248498c397d30fc01fa73.bindPopup(popup_cf32533b676144b288fd2129ad687e30);
+
+            
+        
+    
+
+            var marker_52d32b7c4ec54ddb8912c0172d07a915 = L.marker(
+                [51.1,3.983333],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_6336d3912df84ec493326d84460a6caf);
+            
+    
+
+                var icon_183ddf745ef240d790aebe4d54d82db6 = L.AwesomeMarkers.icon({
+                    icon: 'user',
+                    iconColor: 'white',
+                    markerColor: 'darkgreen',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_52d32b7c4ec54ddb8912c0172d07a915.setIcon(icon_183ddf745ef240d790aebe4d54d82db6);
+            
+    
+            var popup_fef12ee317a449d68ebe3888145cbdb2 = L.popup({maxWidth: '300'});
+
+            
+                var html_cdc8239278e64a8c9ac3e5882b132d03 = $('<div id="html_cdc8239278e64a8c9ac3e5882b132d03" style="width: 100.0%; height: 100.0%;"><b>Lokeren: </b>37567 People.</div>')[0];
+                popup_fef12ee317a449d68ebe3888145cbdb2.setContent(html_cdc8239278e64a8c9ac3e5882b132d03);
+            
+
+            marker_52d32b7c4ec54ddb8912c0172d07a915.bindPopup(popup_fef12ee317a449d68ebe3888145cbdb2);
+
+            
+        
+    
+
+            var marker_92ce71962be244a1b29821fba6557b2f = L.marker(
+                [51.233333,5.3],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_6336d3912df84ec493326d84460a6caf);
+            
+    
+
+                var icon_1c02d13ca47141449091cd3960cca0cc = L.AwesomeMarkers.icon({
+                    icon: 'user',
+                    iconColor: 'white',
+                    markerColor: 'darkgreen',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_92ce71962be244a1b29821fba6557b2f.setIcon(icon_1c02d13ca47141449091cd3960cca0cc);
+            
+    
+            var popup_344d2c44ff07400f9f9531f48d47897f = L.popup({maxWidth: '300'});
+
+            
+                var html_91c4cbe3c08d4fa29b40ae03bf77fdd7 = $('<div id="html_91c4cbe3c08d4fa29b40ae03bf77fdd7" style="width: 100.0%; height: 100.0%;"><b>Lommel: </b>31993 People.</div>')[0];
+                popup_344d2c44ff07400f9f9531f48d47897f.setContent(html_91c4cbe3c08d4fa29b40ae03bf77fdd7);
+            
+
+            marker_92ce71962be244a1b29821fba6557b2f.bindPopup(popup_344d2c44ff07400f9f9531f48d47897f);
+
+            
+        
+    
+
+            var marker_d0578b5cbc89451e96f8c6383111ea51 = L.marker(
+                [51.1,5.8],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_6336d3912df84ec493326d84460a6caf);
+            
+    
+
+                var icon_35fff5ee233542f6a01735069de85cc8 = L.AwesomeMarkers.icon({
+                    icon: 'user',
+                    iconColor: 'white',
+                    markerColor: 'darkgreen',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_d0578b5cbc89451e96f8c6383111ea51.setIcon(icon_35fff5ee233542f6a01735069de85cc8);
+            
+    
+            var popup_e9462943efb244c98adcb1275c12961e = L.popup({maxWidth: '300'});
+
+            
+                var html_520921a767f5411b8e178d1fede1694d = $('<div id="html_520921a767f5411b8e178d1fede1694d" style="width: 100.0%; height: 100.0%;"><b>Maaseik: </b>23684 People.</div>')[0];
+                popup_e9462943efb244c98adcb1275c12961e.setContent(html_520921a767f5411b8e178d1fede1694d);
+            
+
+            marker_d0578b5cbc89451e96f8c6383111ea51.bindPopup(popup_e9462943efb244c98adcb1275c12961e);
+
+            
+        
+    
+
+            var marker_6d921962771f41619a2ae320896e3867 = L.marker(
+                [50.816667,5.666667],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_6336d3912df84ec493326d84460a6caf);
+            
+    
+
+                var icon_9be2c047f625475f8070e4fb21dc173d = L.AwesomeMarkers.icon({
+                    icon: 'user',
+                    iconColor: 'white',
+                    markerColor: 'darkgreen',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_6d921962771f41619a2ae320896e3867.setIcon(icon_9be2c047f625475f8070e4fb21dc173d);
+            
+    
+            var popup_24229091a2be463cb7b739192a0b7ed8 = L.popup({maxWidth: '300'});
+
+            
+                var html_91bde9e6c43e472fb7ce7453c7a25ff7 = $('<div id="html_91bde9e6c43e472fb7ce7453c7a25ff7" style="width: 100.0%; height: 100.0%;"><b>Maasmechelen: </b>36251 People.</div>')[0];
+                popup_24229091a2be463cb7b739192a0b7ed8.setContent(html_91bde9e6c43e472fb7ce7453c7a25ff7);
+            
+
+            marker_6d921962771f41619a2ae320896e3867.bindPopup(popup_24229091a2be463cb7b739192a0b7ed8);
+
+            
+        
+    
+
+            var marker_1c27944750b2465da6c703ddd898b688 = L.marker(
+                [51.216667,3.45],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_6336d3912df84ec493326d84460a6caf);
+            
+    
+
+                var icon_481ee2d995e240ac89c6235a7fb912f0 = L.AwesomeMarkers.icon({
+                    icon: 'user',
+                    iconColor: 'white',
+                    markerColor: 'darkgreen',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_1c27944750b2465da6c703ddd898b688.setIcon(icon_481ee2d995e240ac89c6235a7fb912f0);
+            
+    
+            var popup_e91b90b4e4294929bb616894ee903102 = L.popup({maxWidth: '300'});
+
+            
+                var html_87d862543ac2406d8581d76416123dcd = $('<div id="html_87d862543ac2406d8581d76416123dcd" style="width: 100.0%; height: 100.0%;"><b>Maldegem: </b>22092 People.</div>')[0];
+                popup_e91b90b4e4294929bb616894ee903102.setContent(html_87d862543ac2406d8581d76416123dcd);
+            
+
+            marker_1c27944750b2465da6c703ddd898b688.bindPopup(popup_e91b90b4e4294929bb616894ee903102);
+
+            
+        
+    
+
+            var marker_7c8bdb16c6e4472f9726d57b9e687773 = L.marker(
+                [50.5,4.216667],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_6336d3912df84ec493326d84460a6caf);
+            
+    
+
+                var icon_f3b536250c1a420a9ac81549ce5296d2 = L.AwesomeMarkers.icon({
+                    icon: 'user',
+                    iconColor: 'white',
+                    markerColor: 'darkgreen',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_7c8bdb16c6e4472f9726d57b9e687773.setIcon(icon_f3b536250c1a420a9ac81549ce5296d2);
+            
+    
+            var popup_e952bb1f0ad04647b648937a6771ba6a = L.popup({maxWidth: '300'});
+
+            
+                var html_5649049368d142a8a14a5823cae00690 = $('<div id="html_5649049368d142a8a14a5823cae00690" style="width: 100.0%; height: 100.0%;"><b>Manage: </b>22196 People.</div>')[0];
+                popup_e952bb1f0ad04647b648937a6771ba6a.setContent(html_5649049368d142a8a14a5823cae00690);
+            
+
+            marker_7c8bdb16c6e4472f9726d57b9e687773.bindPopup(popup_e952bb1f0ad04647b648937a6771ba6a);
+
+            
+        
+    
+
+            var marker_9ec90f1afb0941dab7421a9ac4208f3b = L.marker(
+                [51.033333,4.466667],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_6336d3912df84ec493326d84460a6caf);
+            
+    
+
+                var icon_081795f4c13346869aa09ba202305050 = L.AwesomeMarkers.icon({
+                    icon: 'user',
+                    iconColor: 'white',
+                    markerColor: 'darkgreen',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_9ec90f1afb0941dab7421a9ac4208f3b.setIcon(icon_081795f4c13346869aa09ba202305050);
+            
+    
+            var popup_4c303ba530e9409faf0989a3b634bda0 = L.popup({maxWidth: '300'});
+
+            
+                var html_727f1f6e89904f2f87575c0916909042 = $('<div id="html_727f1f6e89904f2f87575c0916909042" style="width: 100.0%; height: 100.0%;"><b>Mechelen: </b>77531 People.</div>')[0];
+                popup_4c303ba530e9409faf0989a3b634bda0.setContent(html_727f1f6e89904f2f87575c0916909042);
+            
+
+            marker_9ec90f1afb0941dab7421a9ac4208f3b.bindPopup(popup_4c303ba530e9409faf0989a3b634bda0);
+
+            
+        
+    
+
+            var marker_49795f52038247e68f7dcc159abca296 = L.marker(
+                [50.8,3.116667],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_6336d3912df84ec493326d84460a6caf);
+            
+    
+
+                var icon_49d086901c424ab68eb52ee55db7aa51 = L.AwesomeMarkers.icon({
+                    icon: 'user',
+                    iconColor: 'white',
+                    markerColor: 'darkgreen',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_49795f52038247e68f7dcc159abca296.setIcon(icon_49d086901c424ab68eb52ee55db7aa51);
+            
+    
+            var popup_dbd472c691734c40ae68bbfb6ef8fa38 = L.popup({maxWidth: '300'});
+
+            
+                var html_1e82863176a242b088529afd20c36c96 = $('<div id="html_1e82863176a242b088529afd20c36c96" style="width: 100.0%; height: 100.0%;"><b>Menen: </b>31916 People.</div>')[0];
+                popup_dbd472c691734c40ae68bbfb6ef8fa38.setContent(html_1e82863176a242b088529afd20c36c96);
+            
+
+            marker_49795f52038247e68f7dcc159abca296.bindPopup(popup_dbd472c691734c40ae68bbfb6ef8fa38);
+
+            
+        
+    
+
+            var marker_d1653b3181a84ca9afd58be767f1e398 = L.marker(
+                [51.0,3.75],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_6336d3912df84ec493326d84460a6caf);
+            
+    
+
+                var icon_82276ae492bc4b5a8b140a5862529f1e = L.AwesomeMarkers.icon({
+                    icon: 'user',
+                    iconColor: 'white',
+                    markerColor: 'darkgreen',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_d1653b3181a84ca9afd58be767f1e398.setIcon(icon_82276ae492bc4b5a8b140a5862529f1e);
+            
+    
+            var popup_b8be57f70807460e81803f890e52ed57 = L.popup({maxWidth: '300'});
+
+            
+                var html_c633188dfb25425d943471107e93a137 = $('<div id="html_c633188dfb25425d943471107e93a137" style="width: 100.0%; height: 100.0%;"><b>Merelbeke: </b>22047 People.</div>')[0];
+                popup_b8be57f70807460e81803f890e52ed57.setContent(html_c633188dfb25425d943471107e93a137);
+            
+
+            marker_d1653b3181a84ca9afd58be767f1e398.bindPopup(popup_b8be57f70807460e81803f890e52ed57);
+
+            
+        
+    
+
+            var marker_93070397058846a88c7ca83f2bf5c57c = L.marker(
+                [51.18333300000001,5.1],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_6336d3912df84ec493326d84460a6caf);
+            
+    
+
+                var icon_fac58f4ff93c483780cd5a8af80b0cc0 = L.AwesomeMarkers.icon({
+                    icon: 'user',
+                    iconColor: 'white',
+                    markerColor: 'darkgreen',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_93070397058846a88c7ca83f2bf5c57c.setIcon(icon_fac58f4ff93c483780cd5a8af80b0cc0);
+            
+    
+            var popup_509ca6b20ee846668156845ab7d26ad6 = L.popup({maxWidth: '300'});
+
+            
+                var html_22a693c284704dbf9bf73037fa0aaa99 = $('<div id="html_22a693c284704dbf9bf73037fa0aaa99" style="width: 100.0%; height: 100.0%;"><b>Mol: </b>32659 People.</div>')[0];
+                popup_509ca6b20ee846668156845ab7d26ad6.setContent(html_22a693c284704dbf9bf73037fa0aaa99);
+            
+
+            marker_93070397058846a88c7ca83f2bf5c57c.bindPopup(popup_509ca6b20ee846668156845ab7d26ad6);
+
+            
+        
+    
+
+            var marker_2ce59c7e47ce45328d5157bc9bd558a8 = L.marker(
+                [50.45,3.933333],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_6336d3912df84ec493326d84460a6caf);
+            
+    
+
+                var icon_c6e65a93f3694f5b8fa44a9d968e8b64 = L.AwesomeMarkers.icon({
+                    icon: 'user',
+                    iconColor: 'white',
+                    markerColor: 'darkgreen',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_2ce59c7e47ce45328d5157bc9bd558a8.setIcon(icon_c6e65a93f3694f5b8fa44a9d968e8b64);
+            
+    
+            var popup_e588c0d0f9674d71b68def313b57c298 = L.popup({maxWidth: '300'});
+
+            
+                var html_7978badca03a453baa5c610531f08853 = $('<div id="html_7978badca03a453baa5c610531f08853" style="width: 100.0%; height: 100.0%;"><b>Mons: </b>91277 People.</div>')[0];
+                popup_e588c0d0f9674d71b68def313b57c298.setContent(html_7978badca03a453baa5c610531f08853);
+            
+
+            marker_2ce59c7e47ce45328d5157bc9bd558a8.bindPopup(popup_e588c0d0f9674d71b68def313b57c298);
+
+            
+        
+    
+
+            var marker_839c6064df354e758407105c6698954c = L.marker(
+                [51.166667,4.466667],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_6336d3912df84ec493326d84460a6caf);
+            
+    
+
+                var icon_83d8455778fb475fbaecbb45e8d7af1b = L.AwesomeMarkers.icon({
+                    icon: 'user',
+                    iconColor: 'white',
+                    markerColor: 'darkgreen',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_839c6064df354e758407105c6698954c.setIcon(icon_83d8455778fb475fbaecbb45e8d7af1b);
+            
+    
+            var popup_b565359b22504ee0a816b55990648fda = L.popup({maxWidth: '300'});
+
+            
+                var html_220e61feb4dc4331828d2e853000c2c7 = $('<div id="html_220e61feb4dc4331828d2e853000c2c7" style="width: 100.0%; height: 100.0%;"><b>Mortsel: </b>24525 People.</div>')[0];
+                popup_b565359b22504ee0a816b55990648fda.setContent(html_220e61feb4dc4331828d2e853000c2c7);
+            
+
+            marker_839c6064df354e758407105c6698954c.bindPopup(popup_b565359b22504ee0a816b55990648fda);
+
+            
+        
+    
+
+            var marker_52b86c2ec4fb4d1782d61335a00c8f63 = L.marker(
+                [50.733333,3.216667],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_6336d3912df84ec493326d84460a6caf);
+            
+    
+
+                var icon_262712de6b1f43b0a168e8f1e4a96bdf = L.AwesomeMarkers.icon({
+                    icon: 'user',
+                    iconColor: 'white',
+                    markerColor: 'darkgreen',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_52b86c2ec4fb4d1782d61335a00c8f63.setIcon(icon_262712de6b1f43b0a168e8f1e4a96bdf);
+            
+    
+            var popup_93ba085eb7a142bea44269929ceb5c0b = L.popup({maxWidth: '300'});
+
+            
+                var html_956213a7cb034793b57e389b17e54aaf = $('<div id="html_956213a7cb034793b57e389b17e54aaf" style="width: 100.0%; height: 100.0%;"><b>Mouscron: </b>52069 People.</div>')[0];
+                popup_93ba085eb7a142bea44269929ceb5c0b.setContent(html_956213a7cb034793b57e389b17e54aaf);
+            
+
+            marker_52b86c2ec4fb4d1782d61335a00c8f63.bindPopup(popup_93ba085eb7a142bea44269929ceb5c0b);
+
+            
+        
+    
+
+            var marker_f37e1825e5f349e0b5f1f4617036c50f = L.marker(
+                [50.466667,4.866667],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_6336d3912df84ec493326d84460a6caf);
+            
+    
+
+                var icon_ab45c3a8007d44ed828b30b8ef7591e5 = L.AwesomeMarkers.icon({
+                    icon: 'user',
+                    iconColor: 'white',
+                    markerColor: 'darkgreen',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_f37e1825e5f349e0b5f1f4617036c50f.setIcon(icon_ab45c3a8007d44ed828b30b8ef7591e5);
+            
+    
+            var popup_fc420cd2819a42899c75505ed3ed84f1 = L.popup({maxWidth: '300'});
+
+            
+                var html_ccc51f5834474c75afcd271d6173fc36 = $('<div id="html_ccc51f5834474c75afcd271d6173fc36" style="width: 100.0%; height: 100.0%;"><b>Namur: </b>106284 People.</div>')[0];
+                popup_fc420cd2819a42899c75505ed3ed84f1.setContent(html_ccc51f5834474c75afcd271d6173fc36);
+            
+
+            marker_f37e1825e5f349e0b5f1f4617036c50f.bindPopup(popup_fc420cd2819a42899c75505ed3ed84f1);
+
+            
+        
+    
+
+            var marker_d19f7fb482d24111860a4b12d38654a1 = L.marker(
+                [51.166667,4.65],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_6336d3912df84ec493326d84460a6caf);
+            
+    
+
+                var icon_d122083c31004586a2b5938b78ada02e = L.AwesomeMarkers.icon({
+                    icon: 'user',
+                    iconColor: 'white',
+                    markerColor: 'darkgreen',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_d19f7fb482d24111860a4b12d38654a1.setIcon(icon_d122083c31004586a2b5938b78ada02e);
+            
+    
+            var popup_7997fd8d4dd3468688da02bd44eefb4c = L.popup({maxWidth: '300'});
+
+            
+                var html_9c45f6c01e4b4af78d95c649d40d2634 = $('<div id="html_9c45f6c01e4b4af78d95c649d40d2634" style="width: 100.0%; height: 100.0%;"><b>Nijlen: </b>20792 People.</div>')[0];
+                popup_7997fd8d4dd3468688da02bd44eefb4c.setContent(html_9c45f6c01e4b4af78d95c649d40d2634);
+            
+
+            marker_d19f7fb482d24111860a4b12d38654a1.bindPopup(popup_7997fd8d4dd3468688da02bd44eefb4c);
+
+            
+        
+    
+
+            var marker_f37d5d9078d449c3ac9209e3e3f63ca8 = L.marker(
+                [50.833333,4.016667],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_6336d3912df84ec493326d84460a6caf);
+            
+    
+
+                var icon_db74cfacf402497181875842e34065ea = L.AwesomeMarkers.icon({
+                    icon: 'user',
+                    iconColor: 'white',
+                    markerColor: 'darkgreen',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_f37d5d9078d449c3ac9209e3e3f63ca8.setIcon(icon_db74cfacf402497181875842e34065ea);
+            
+    
+            var popup_aadeb1fa27064da8ab04b99cccc098c3 = L.popup({maxWidth: '300'});
+
+            
+                var html_5ab83e650ef04f76ab173f61d9b1c804 = $('<div id="html_5ab83e650ef04f76ab173f61d9b1c804" style="width: 100.0%; height: 100.0%;"><b>Ninove: </b>34795 People.</div>')[0];
+                popup_aadeb1fa27064da8ab04b99cccc098c3.setContent(html_5ab83e650ef04f76ab173f61d9b1c804);
+            
+
+            marker_f37d5d9078d449c3ac9209e3e3f63ca8.bindPopup(popup_aadeb1fa27064da8ab04b99cccc098c3);
+
+            
+        
+    
+
+            var marker_7348783fed1f4d64b962335bb1e8ede4 = L.marker(
+                [50.6,4.3333330000000005],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_6336d3912df84ec493326d84460a6caf);
+            
+    
+
+                var icon_a591e4a2d4bb46a7a22238db928dd8b9 = L.AwesomeMarkers.icon({
+                    icon: 'user',
+                    iconColor: 'white',
+                    markerColor: 'darkgreen',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_7348783fed1f4d64b962335bb1e8ede4.setIcon(icon_a591e4a2d4bb46a7a22238db928dd8b9);
+            
+    
+            var popup_c19da41c6afb4db682d4c46035401660 = L.popup({maxWidth: '300'});
+
+            
+                var html_6d8ea15d8d434d0c8ff60096e3c9ef2d = $('<div id="html_6d8ea15d8d434d0c8ff60096e3c9ef2d" style="width: 100.0%; height: 100.0%;"><b>Nivelles: </b>24149 People.</div>')[0];
+                popup_c19da41c6afb4db682d4c46035401660.setContent(html_6d8ea15d8d434d0c8ff60096e3c9ef2d);
+            
+
+            marker_7348783fed1f4d64b962335bb1e8ede4.bindPopup(popup_c19da41c6afb4db682d4c46035401660);
+
+            
+        
+    
+
+            var marker_50eb4a169bb54543884f9131ea7163a3 = L.marker(
+                [51.15,3.233333],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_6336d3912df84ec493326d84460a6caf);
+            
+    
+
+                var icon_c05614bdbf784d16aef17ae47d7ab5ea = L.AwesomeMarkers.icon({
+                    icon: 'user',
+                    iconColor: 'white',
+                    markerColor: 'darkgreen',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_50eb4a169bb54543884f9131ea7163a3.setIcon(icon_c05614bdbf784d16aef17ae47d7ab5ea);
+            
+    
+            var popup_a987110867974f29991769edd127b1de = L.popup({maxWidth: '300'});
+
+            
+                var html_048737ca713b4b1d9766a4f8ad8218c8 = $('<div id="html_048737ca713b4b1d9766a4f8ad8218c8" style="width: 100.0%; height: 100.0%;"><b>Oostkamp: </b>21489 People.</div>')[0];
+                popup_a987110867974f29991769edd127b1de.setContent(html_048737ca713b4b1d9766a4f8ad8218c8);
+            
+
+            marker_50eb4a169bb54543884f9131ea7163a3.bindPopup(popup_a987110867974f29991769edd127b1de);
+
+            
+        
+    
+
+            var marker_613478ac3f3146a3bccd2e5a409f5d99 = L.marker(
+                [51.216667,2.916667],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_6336d3912df84ec493326d84460a6caf);
+            
+    
+
+                var icon_c36d0569339646cbae3c64d0151717ba = L.AwesomeMarkers.icon({
+                    icon: 'user',
+                    iconColor: 'white',
+                    markerColor: 'darkgreen',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_613478ac3f3146a3bccd2e5a409f5d99.setIcon(icon_c36d0569339646cbae3c64d0151717ba);
+            
+    
+            var popup_f5a3745d66514bffb24174e05d1e1b5f = L.popup({maxWidth: '300'});
+
+            
+                var html_3ea01a59809f48639183b246fb0628eb = $('<div id="html_3ea01a59809f48639183b246fb0628eb" style="width: 100.0%; height: 100.0%;"><b>Ostend: </b>69011 People.</div>')[0];
+                popup_f5a3745d66514bffb24174e05d1e1b5f.setContent(html_3ea01a59809f48639183b246fb0628eb);
+            
+
+            marker_613478ac3f3146a3bccd2e5a409f5d99.bindPopup(popup_f5a3745d66514bffb24174e05d1e1b5f);
+
+            
+        
+    
+
+            var marker_d4f4b8bcab084d819fcd2d5fb7de7c72 = L.marker(
+                [50.85,3.6],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_6336d3912df84ec493326d84460a6caf);
+            
+    
+
+                var icon_b01fde5c87894f10a6c81d45715cfb53 = L.AwesomeMarkers.icon({
+                    icon: 'user',
+                    iconColor: 'white',
+                    markerColor: 'darkgreen',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_d4f4b8bcab084d819fcd2d5fb7de7c72.setIcon(icon_b01fde5c87894f10a6c81d45715cfb53);
+            
+    
+            var popup_25bcc5bc0405495fa73091fded821135 = L.popup({maxWidth: '300'});
+
+            
+                var html_0fb5fb3bc3a149e2bab0f1992ae2402a = $('<div id="html_0fb5fb3bc3a149e2bab0f1992ae2402a" style="width: 100.0%; height: 100.0%;"><b>Oudenaarde: </b>27935 People.</div>')[0];
+                popup_25bcc5bc0405495fa73091fded821135.setContent(html_0fb5fb3bc3a149e2bab0f1992ae2402a);
+            
+
+            marker_d4f4b8bcab084d819fcd2d5fb7de7c72.bindPopup(popup_25bcc5bc0405495fa73091fded821135);
+
+            
+        
+    
+
+            var marker_23253de42fb446068e6c0e857500312d = L.marker(
+                [50.7,5.65],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_6336d3912df84ec493326d84460a6caf);
+            
+    
+
+                var icon_7f40772215b7425b8f6fe8923ad321cf = L.AwesomeMarkers.icon({
+                    icon: 'user',
+                    iconColor: 'white',
+                    markerColor: 'darkgreen',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_23253de42fb446068e6c0e857500312d.setIcon(icon_7f40772215b7425b8f6fe8923ad321cf);
+            
+    
+            var popup_4e1d67fd830748f1bb4eeca5a98d9558 = L.popup({maxWidth: '300'});
+
+            
+                var html_bdcee8dbad2b4b0baee73a1442c74ffb = $('<div id="html_bdcee8dbad2b4b0baee73a1442c74ffb" style="width: 100.0%; height: 100.0%;"><b>Oupeye: </b>23594 People.</div>')[0];
+                popup_4e1d67fd830748f1bb4eeca5a98d9558.setContent(html_bdcee8dbad2b4b0baee73a1442c74ffb);
+            
+
+            marker_23253de42fb446068e6c0e857500312d.bindPopup(popup_4e1d67fd830748f1bb4eeca5a98d9558);
+
+            
+        
+    
+
+            var marker_546acf0333bf4633817c3beddac7f2d2 = L.marker(
+                [50.766667,4.533333],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_6336d3912df84ec493326d84460a6caf);
+            
+    
+
+                var icon_af1bafd4362447f7b1ac3466e42be085 = L.AwesomeMarkers.icon({
+                    icon: 'user',
+                    iconColor: 'white',
+                    markerColor: 'darkgreen',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_546acf0333bf4633817c3beddac7f2d2.setIcon(icon_af1bafd4362447f7b1ac3466e42be085);
+            
+    
+            var popup_ab0b4036b1384071a745df854b534e96 = L.popup({maxWidth: '300'});
+
+            
+                var html_02e218376c6049e0ad85eb0ed95b9af2 = $('<div id="html_02e218376c6049e0ad85eb0ed95b9af2" style="width: 100.0%; height: 100.0%;"><b>Overijse: </b>23486 People.</div>')[0];
+                popup_ab0b4036b1384071a745df854b534e96.setContent(html_02e218376c6049e0ad85eb0ed95b9af2);
+            
+
+            marker_546acf0333bf4633817c3beddac7f2d2.bindPopup(popup_ab0b4036b1384071a745df854b534e96);
+
+            
+        
+    
+
+            var marker_054233820ac147388237944fcdbe5da5 = L.marker(
+                [50.716667,4.533333],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_6336d3912df84ec493326d84460a6caf);
+            
+    
+
+                var icon_87348473028e418d965ac92174ce451f = L.AwesomeMarkers.icon({
+                    icon: 'user',
+                    iconColor: 'white',
+                    markerColor: 'darkgreen',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_054233820ac147388237944fcdbe5da5.setIcon(icon_87348473028e418d965ac92174ce451f);
+            
+    
+            var popup_fe23a49ef4db427dae2fe82022305d4c = L.popup({maxWidth: '300'});
+
+            
+                var html_7a9892f1bddd4ea3950e9614d8f93578 = $('<div id="html_7a9892f1bddd4ea3950e9614d8f93578" style="width: 100.0%; height: 100.0%;"><b>Rixensart: </b>21616 People.</div>')[0];
+                popup_fe23a49ef4db427dae2fe82022305d4c.setContent(html_7a9892f1bddd4ea3950e9614d8f93578);
+            
+
+            marker_054233820ac147388237944fcdbe5da5.bindPopup(popup_fe23a49ef4db427dae2fe82022305d4c);
+
+            
+        
+    
+
+            var marker_35d2f87489b149afb7c8b77b0f143c78 = L.marker(
+                [50.95,3.1333330000000004],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_6336d3912df84ec493326d84460a6caf);
+            
+    
+
+                var icon_12a31472d9b34c4191767faa9a6aec82 = L.AwesomeMarkers.icon({
+                    icon: 'user',
+                    iconColor: 'white',
+                    markerColor: 'darkgreen',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_35d2f87489b149afb7c8b77b0f143c78.setIcon(icon_12a31472d9b34c4191767faa9a6aec82);
+            
+    
+            var popup_dbce6815b7b74f93a9c340c929940142 = L.popup({maxWidth: '300'});
+
+            
+                var html_835f8554f05c4a6cbc6567436b676dac = $('<div id="html_835f8554f05c4a6cbc6567436b676dac" style="width: 100.0%; height: 100.0%;"><b>Roeselare: </b>56016 People.</div>')[0];
+                popup_dbce6815b7b74f93a9c340c929940142.setContent(html_835f8554f05c4a6cbc6567436b676dac);
+            
+
+            marker_35d2f87489b149afb7c8b77b0f143c78.bindPopup(popup_dbce6815b7b74f93a9c340c929940142);
+
+            
+        
+    
+
+            var marker_eefd05d80a2941ce89efee377588f48c = L.marker(
+                [50.75,3.6],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_6336d3912df84ec493326d84460a6caf);
+            
+    
+
+                var icon_9cecd73f6df744c9954b712e8eafd088 = L.AwesomeMarkers.icon({
+                    icon: 'user',
+                    iconColor: 'white',
+                    markerColor: 'darkgreen',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_eefd05d80a2941ce89efee377588f48c.setIcon(icon_9cecd73f6df744c9954b712e8eafd088);
+            
+    
+            var popup_0b142bad99544c2b97125d00e66400e4 = L.popup({maxWidth: '300'});
+
+            
+                var html_e8fe33a6f33f4d9d88dc3c4c158cac45 = $('<div id="html_e8fe33a6f33f4d9d88dc3c4c158cac45" style="width: 100.0%; height: 100.0%;"><b>Ronse: </b>24204 People.</div>')[0];
+                popup_0b142bad99544c2b97125d00e66400e4.setContent(html_e8fe33a6f33f4d9d88dc3c4c158cac45);
+            
+
+            marker_eefd05d80a2941ce89efee377588f48c.bindPopup(popup_0b142bad99544c2b97125d00e66400e4);
+
+            
+        
+    
+
+            var marker_d50fc9cc20114ec1853b775767ac2f34 = L.marker(
+                [50.45,3.816667],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_6336d3912df84ec493326d84460a6caf);
+            
+    
+
+                var icon_e4c28c6bff5647f28a317b4574254a35 = L.AwesomeMarkers.icon({
+                    icon: 'user',
+                    iconColor: 'white',
+                    markerColor: 'darkgreen',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_d50fc9cc20114ec1853b775767ac2f34.setIcon(icon_e4c28c6bff5647f28a317b4574254a35);
+            
+    
+            var popup_ba47097633e64117b998198cd84eeb61 = L.popup({maxWidth: '300'});
+
+            
+                var html_14aa610f35e2449c95ae1caf6bac7d52 = $('<div id="html_14aa610f35e2449c95ae1caf6bac7d52" style="width: 100.0%; height: 100.0%;"><b>Saint-Ghislain: </b>22500 People.</div>')[0];
+                popup_ba47097633e64117b998198cd84eeb61.setContent(html_14aa610f35e2449c95ae1caf6bac7d52);
+            
+
+            marker_d50fc9cc20114ec1853b775767ac2f34.bindPopup(popup_ba47097633e64117b998198cd84eeb61);
+
+            
+        
+    
+
+            var marker_412babafd5964ed081f5c3b19c37f147 = L.marker(
+                [50.633333,5.533333],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_6336d3912df84ec493326d84460a6caf);
+            
+    
+
+                var icon_e33ec4940ed2419b8cbd7740852f1be4 = L.AwesomeMarkers.icon({
+                    icon: 'user',
+                    iconColor: 'white',
+                    markerColor: 'darkgreen',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_412babafd5964ed081f5c3b19c37f147.setIcon(icon_e33ec4940ed2419b8cbd7740852f1be4);
+            
+    
+            var popup_117b0f3d50fb4a559e4379eb238c99d9 = L.popup({maxWidth: '300'});
+
+            
+                var html_51ba453bea024683a236242eb29f623c = $('<div id="html_51ba453bea024683a236242eb29f623c" style="width: 100.0%; height: 100.0%;"><b>Saint-Nicolas: </b>22586 People.</div>')[0];
+                popup_117b0f3d50fb4a559e4379eb238c99d9.setContent(html_51ba453bea024683a236242eb29f623c);
+            
+
+            marker_412babafd5964ed081f5c3b19c37f147.bindPopup(popup_117b0f3d50fb4a559e4379eb238c99d9);
+
+            
+        
+    
+
+            var marker_18da1da7c924412f9ffd958ada281360 = L.marker(
+                [51.233333,4.566667],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_6336d3912df84ec493326d84460a6caf);
+            
+    
+
+                var icon_b8a9a4c294e34892b0fa704255ed1630 = L.AwesomeMarkers.icon({
+                    icon: 'user',
+                    iconColor: 'white',
+                    markerColor: 'darkgreen',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_18da1da7c924412f9ffd958ada281360.setIcon(icon_b8a9a4c294e34892b0fa704255ed1630);
+            
+    
+            var popup_0a6126d47c394404b5db2a596b13fdc3 = L.popup({maxWidth: '300'});
+
+            
+                var html_785c07744e3f45f598e794d3ba26158c = $('<div id="html_785c07744e3f45f598e794d3ba26158c" style="width: 100.0%; height: 100.0%;"><b>Schilde: </b>20373 People.</div>')[0];
+                popup_0a6126d47c394404b5db2a596b13fdc3.setContent(html_785c07744e3f45f598e794d3ba26158c);
+            
+
+            marker_18da1da7c924412f9ffd958ada281360.bindPopup(popup_0a6126d47c394404b5db2a596b13fdc3);
+
+            
+        
+    
+
+            var marker_039763f07316438d8ce016c5061954fd = L.marker(
+                [51.25,4.5],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_6336d3912df84ec493326d84460a6caf);
+            
+    
+
+                var icon_8e921b6cbdc34a7f840f16dd93013e49 = L.AwesomeMarkers.icon({
+                    icon: 'user',
+                    iconColor: 'white',
+                    markerColor: 'darkgreen',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_039763f07316438d8ce016c5061954fd.setIcon(icon_8e921b6cbdc34a7f840f16dd93013e49);
+            
+    
+            var popup_bdadce6a76d94ac2bf79bba5d197df69 = L.popup({maxWidth: '300'});
+
+            
+                var html_c26759468e67482d90e08f27dfa08902 = $('<div id="html_c26759468e67482d90e08f27dfa08902" style="width: 100.0%; height: 100.0%;"><b>Schoten: </b>33622 People.</div>')[0];
+                popup_bdadce6a76d94ac2bf79bba5d197df69.setContent(html_c26759468e67482d90e08f27dfa08902);
+            
+
+            marker_039763f07316438d8ce016c5061954fd.bindPopup(popup_bdadce6a76d94ac2bf79bba5d197df69);
+
+            
+        
+    
+
+            var marker_37d296ceec3a478a98aea8f3285a971a = L.marker(
+                [50.6,5.483333],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_6336d3912df84ec493326d84460a6caf);
+            
+    
+
+                var icon_b5586f8f6cc5487c9551d1c8afefbe33 = L.AwesomeMarkers.icon({
+                    icon: 'user',
+                    iconColor: 'white',
+                    markerColor: 'darkgreen',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_37d296ceec3a478a98aea8f3285a971a.setIcon(icon_b5586f8f6cc5487c9551d1c8afefbe33);
+            
+    
+            var popup_2f4d06b2c5334a228ddd77acc851249c = L.popup({maxWidth: '300'});
+
+            
+                var html_1e8b9609ef3844468468d012d3781829 = $('<div id="html_1e8b9609ef3844468468d012d3781829" style="width: 100.0%; height: 100.0%;"><b>Seraing: </b>60737 People.</div>')[0];
+                popup_2f4d06b2c5334a228ddd77acc851249c.setContent(html_1e8b9609ef3844468468d012d3781829);
+            
+
+            marker_37d296ceec3a478a98aea8f3285a971a.bindPopup(popup_2f4d06b2c5334a228ddd77acc851249c);
+
+            
+        
+    
+
+            var marker_adbb2a2346534b74b95ee06e5c240195 = L.marker(
+                [51.166667,4.133333],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_6336d3912df84ec493326d84460a6caf);
+            
+    
+
+                var icon_9ec64c8fb7f243ce9d93f268ba2d1538 = L.AwesomeMarkers.icon({
+                    icon: 'user',
+                    iconColor: 'white',
+                    markerColor: 'darkgreen',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_adbb2a2346534b74b95ee06e5c240195.setIcon(icon_9ec64c8fb7f243ce9d93f268ba2d1538);
+            
+    
+            var popup_79651fab2bec4b368eca453ee2476131 = L.popup({maxWidth: '300'});
+
+            
+                var html_c9c7181cacb04d1f8a51f2ae2e6843a4 = $('<div id="html_c9c7181cacb04d1f8a51f2ae2e6843a4" style="width: 100.0%; height: 100.0%;"><b>Sint-Niklaas: </b>69010 People.</div>')[0];
+                popup_79651fab2bec4b368eca453ee2476131.setContent(html_c9c7181cacb04d1f8a51f2ae2e6843a4);
+            
+
+            marker_adbb2a2346534b74b95ee06e5c240195.bindPopup(popup_79651fab2bec4b368eca453ee2476131);
+
+            
+        
+    
+
+            var marker_bd9deabdf1df44d7a16fa011436b0534 = L.marker(
+                [50.783333,4.233333],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_6336d3912df84ec493326d84460a6caf);
+            
+    
+
+                var icon_202d0be8a38d4434aaaba7e0aba4dcbc = L.AwesomeMarkers.icon({
+                    icon: 'user',
+                    iconColor: 'white',
+                    markerColor: 'darkgreen',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_bd9deabdf1df44d7a16fa011436b0534.setIcon(icon_202d0be8a38d4434aaaba7e0aba4dcbc);
+            
+    
+            var popup_8c68e095601740d18421c8a9f49ab62a = L.popup({maxWidth: '300'});
+
+            
+                var html_713619d65a1845659e6a319b60849a6e = $('<div id="html_713619d65a1845659e6a319b60849a6e" style="width: 100.0%; height: 100.0%;"><b>Sint-Pieters-Leeuw: </b>30446 People.</div>')[0];
+                popup_8c68e095601740d18421c8a9f49ab62a.setContent(html_713619d65a1845659e6a319b60849a6e);
+            
+
+            marker_bd9deabdf1df44d7a16fa011436b0534.bindPopup(popup_8c68e095601740d18421c8a9f49ab62a);
+
+            
+        
+    
+
+            var marker_4bdfd6bf3eec4f9eaa1e8d1b93e082d3 = L.marker(
+                [50.8,5.2],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_6336d3912df84ec493326d84460a6caf);
+            
+    
+
+                var icon_b04544e254c0489cabaaad6feaa29c76 = L.AwesomeMarkers.icon({
+                    icon: 'user',
+                    iconColor: 'white',
+                    markerColor: 'darkgreen',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_4bdfd6bf3eec4f9eaa1e8d1b93e082d3.setIcon(icon_b04544e254c0489cabaaad6feaa29c76);
+            
+    
+            var popup_21fac7fcca4948e7841c8b6379545705 = L.popup({maxWidth: '300'});
+
+            
+                var html_4fcc9346b6f34dba862e83d155323576 = $('<div id="html_4fcc9346b6f34dba862e83d155323576" style="width: 100.0%; height: 100.0%;"><b>Sint-Truiden: </b>37859 People.</div>')[0];
+                popup_21fac7fcca4948e7841c8b6379545705.setContent(html_4fcc9346b6f34dba862e83d155323576);
+            
+
+            marker_4bdfd6bf3eec4f9eaa1e8d1b93e082d3.bindPopup(popup_21fac7fcca4948e7841c8b6379545705);
+
+            
+        
+    
+
+            var marker_c2d95eb35fb74794b4e7ef696712ba38 = L.marker(
+                [50.583333,4.066667],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_6336d3912df84ec493326d84460a6caf);
+            
+    
+
+                var icon_7310fc14d5f841419230b99faf192641 = L.AwesomeMarkers.icon({
+                    icon: 'user',
+                    iconColor: 'white',
+                    markerColor: 'darkgreen',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_c2d95eb35fb74794b4e7ef696712ba38.setIcon(icon_7310fc14d5f841419230b99faf192641);
+            
+    
+            var popup_ec32a11183c849ed9d63e28c488e4b47 = L.popup({maxWidth: '300'});
+
+            
+                var html_c62f0488c823402c80a7359cbb2a68d1 = $('<div id="html_c62f0488c823402c80a7359cbb2a68d1" style="width: 100.0%; height: 100.0%;"><b>Soignies: </b>24869 People.</div>')[0];
+                popup_ec32a11183c849ed9d63e28c488e4b47.setContent(html_c62f0488c823402c80a7359cbb2a68d1);
+            
+
+            marker_c2d95eb35fb74794b4e7ef696712ba38.bindPopup(popup_ec32a11183c849ed9d63e28c488e4b47);
+
+            
+        
+    
+
+            var marker_8c3d38eb6d5e40ccab5fc37d8cd8f41c = L.marker(
+                [51.133333,4.216667],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_6336d3912df84ec493326d84460a6caf);
+            
+    
+
+                var icon_f00c344fec1447ecb33999ecfbcf2719 = L.AwesomeMarkers.icon({
+                    icon: 'user',
+                    iconColor: 'white',
+                    markerColor: 'darkgreen',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_8c3d38eb6d5e40ccab5fc37d8cd8f41c.setIcon(icon_f00c344fec1447ecb33999ecfbcf2719);
+            
+    
+            var popup_06d35398d2c8443e9cbc947b04b0938b = L.popup({maxWidth: '300'});
+
+            
+                var html_2d67376815c741e6a902dfdb80aa717e = $('<div id="html_2d67376815c741e6a902dfdb80aa717e" style="width: 100.0%; height: 100.0%;"><b>Temse: </b>26054 People.</div>')[0];
+                popup_06d35398d2c8443e9cbc947b04b0938b.setContent(html_2d67376815c741e6a902dfdb80aa717e);
+            
+
+            marker_8c3d38eb6d5e40ccab5fc37d8cd8f41c.bindPopup(popup_06d35398d2c8443e9cbc947b04b0938b);
+
+            
+        
+    
+
+            var marker_e747edd7e0194c6080128014e969e209 = L.marker(
+                [50.816667,4.516667],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_6336d3912df84ec493326d84460a6caf);
+            
+    
+
+                var icon_a0188b72e86f40ff9dd3ef7b8dd15d2e = L.AwesomeMarkers.icon({
+                    icon: 'user',
+                    iconColor: 'white',
+                    markerColor: 'darkgreen',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_e747edd7e0194c6080128014e969e209.setIcon(icon_a0188b72e86f40ff9dd3ef7b8dd15d2e);
+            
+    
+            var popup_5960626201ae4b6ba89ae40084c543b3 = L.popup({maxWidth: '300'});
+
+            
+                var html_3d6fda6143c442acbf9fcf1d9d79ca6a = $('<div id="html_3d6fda6143c442acbf9fcf1d9d79ca6a" style="width: 100.0%; height: 100.0%;"><b>Tervuren: </b>20623 People.</div>')[0];
+                popup_5960626201ae4b6ba89ae40084c543b3.setContent(html_3d6fda6143c442acbf9fcf1d9d79ca6a);
+            
+
+            marker_e747edd7e0194c6080128014e969e209.bindPopup(popup_5960626201ae4b6ba89ae40084c543b3);
+
+            
+        
+    
+
+            var marker_8425afe9d339464e9f9e1c9cae896db8 = L.marker(
+                [50.8,4.95],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_6336d3912df84ec493326d84460a6caf);
+            
+    
+
+                var icon_7072e661a52b479ea5e1dcd69605489e = L.AwesomeMarkers.icon({
+                    icon: 'user',
+                    iconColor: 'white',
+                    markerColor: 'darkgreen',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_8425afe9d339464e9f9e1c9cae896db8.setIcon(icon_7072e661a52b479ea5e1dcd69605489e);
+            
+    
+            var popup_a689153793dd46b98b7fc023002d8c9d = L.popup({maxWidth: '300'});
+
+            
+                var html_3305ece1440f4968b359d47e9e69ff7d = $('<div id="html_3305ece1440f4968b359d47e9e69ff7d" style="width: 100.0%; height: 100.0%;"><b>Tienen: </b>31743 People.</div>')[0];
+                popup_a689153793dd46b98b7fc023002d8c9d.setContent(html_3305ece1440f4968b359d47e9e69ff7d);
+            
+
+            marker_8425afe9d339464e9f9e1c9cae896db8.bindPopup(popup_a689153793dd46b98b7fc023002d8c9d);
+
+            
+        
+    
+
+            var marker_df143ecdacd243e9ad14316e811d14c9 = L.marker(
+                [50.783333,5.466667],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_6336d3912df84ec493326d84460a6caf);
+            
+    
+
+                var icon_dc5dc17a860545e5b4013d7e446bee04 = L.AwesomeMarkers.icon({
+                    icon: 'user',
+                    iconColor: 'white',
+                    markerColor: 'darkgreen',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_df143ecdacd243e9ad14316e811d14c9.setIcon(icon_dc5dc17a860545e5b4013d7e446bee04);
+            
+    
+            var popup_664661ea5e8b43cdaae88e10e8073848 = L.popup({maxWidth: '300'});
+
+            
+                var html_33c8f7995b6e4241b7ed075a2f2722c6 = $('<div id="html_33c8f7995b6e4241b7ed075a2f2722c6" style="width: 100.0%; height: 100.0%;"><b>Tongeren: </b>29816 People.</div>')[0];
+                popup_664661ea5e8b43cdaae88e10e8073848.setContent(html_33c8f7995b6e4241b7ed075a2f2722c6);
+            
+
+            marker_df143ecdacd243e9ad14316e811d14c9.bindPopup(popup_664661ea5e8b43cdaae88e10e8073848);
+
+            
+        
+    
+
+            var marker_0f826814d1ad45d89365626086922d87 = L.marker(
+                [50.6,3.3833330000000004],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_6336d3912df84ec493326d84460a6caf);
+            
+    
+
+                var icon_85ede7542ff64d1ba33848382f64318c = L.AwesomeMarkers.icon({
+                    icon: 'user',
+                    iconColor: 'white',
+                    markerColor: 'darkgreen',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_0f826814d1ad45d89365626086922d87.setIcon(icon_85ede7542ff64d1ba33848382f64318c);
+            
+    
+            var popup_0a083b81f95242808ff43b3243b4aa36 = L.popup({maxWidth: '300'});
+
+            
+                var html_96926553fb514f5a89778e17673c19cf = $('<div id="html_96926553fb514f5a89778e17673c19cf" style="width: 100.0%; height: 100.0%;"><b>Tournai: </b>67720 People.</div>')[0];
+                popup_0a083b81f95242808ff43b3243b4aa36.setContent(html_96926553fb514f5a89778e17673c19cf);
+            
+
+            marker_0f826814d1ad45d89365626086922d87.bindPopup(popup_0a083b81f95242808ff43b3243b4aa36);
+
+            
+        
+    
+
+            var marker_be626691da534eeab91e8c3685d8f3a7 = L.marker(
+                [50.68333300000001,4.2],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_6336d3912df84ec493326d84460a6caf);
+            
+    
+
+                var icon_34b7608cf8ec4b4986d431253960d81e = L.AwesomeMarkers.icon({
+                    icon: 'user',
+                    iconColor: 'white',
+                    markerColor: 'darkgreen',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_be626691da534eeab91e8c3685d8f3a7.setIcon(icon_34b7608cf8ec4b4986d431253960d81e);
+            
+    
+            var popup_a82aa28eac6c4cb5b0f7fb99c49d50be = L.popup({maxWidth: '300'});
+
+            
+                var html_c2dd0fcf940343bf96b47fa2d38bd4da = $('<div id="html_c2dd0fcf940343bf96b47fa2d38bd4da" style="width: 100.0%; height: 100.0%;"><b>Tubize: </b>21859 People.</div>')[0];
+                popup_a82aa28eac6c4cb5b0f7fb99c49d50be.setContent(html_c2dd0fcf940343bf96b47fa2d38bd4da);
+            
+
+            marker_be626691da534eeab91e8c3685d8f3a7.bindPopup(popup_a82aa28eac6c4cb5b0f7fb99c49d50be);
+
+            
+        
+    
+
+            var marker_c68dddc9d99d478695a239cc6f51d1d4 = L.marker(
+                [51.316667,4.95],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_6336d3912df84ec493326d84460a6caf);
+            
+    
+
+                var icon_db5297ff0b5646c284daf924cc61747d = L.AwesomeMarkers.icon({
+                    icon: 'user',
+                    iconColor: 'white',
+                    markerColor: 'darkgreen',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_c68dddc9d99d478695a239cc6f51d1d4.setIcon(icon_db5297ff0b5646c284daf924cc61747d);
+            
+    
+            var popup_1dd33f49b3344a4f875dab3b42c4d495 = L.popup({maxWidth: '300'});
+
+            
+                var html_496eab711b2046499f87200200c4adb7 = $('<div id="html_496eab711b2046499f87200200c4adb7" style="width: 100.0%; height: 100.0%;"><b>Turnhout: </b>39654 People.</div>')[0];
+                popup_1dd33f49b3344a4f875dab3b42c4d495.setContent(html_496eab711b2046499f87200200c4adb7);
+            
+
+            marker_c68dddc9d99d478695a239cc6f51d1d4.bindPopup(popup_1dd33f49b3344a4f875dab3b42c4d495);
+
+            
+        
+    
+
+            var marker_9c4c20ec31cf495ea4811fdb38ecff96 = L.marker(
+                [50.583333,5.866667],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_6336d3912df84ec493326d84460a6caf);
+            
+    
+
+                var icon_c69cfa2aa8a94575a8fe00a4cfae6db9 = L.AwesomeMarkers.icon({
+                    icon: 'user',
+                    iconColor: 'white',
+                    markerColor: 'darkgreen',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_9c4c20ec31cf495ea4811fdb38ecff96.setIcon(icon_c69cfa2aa8a94575a8fe00a4cfae6db9);
+            
+    
+            var popup_a8479b4133074108a5908e43e8a88e9a = L.popup({maxWidth: '300'});
+
+            
+                var html_82ffb22b5d074dfe952b025c3f149cef = $('<div id="html_82ffb22b5d074dfe952b025c3f149cef" style="width: 100.0%; height: 100.0%;"><b>Verviers: </b>52824 People.</div>')[0];
+                popup_a8479b4133074108a5908e43e8a88e9a.setContent(html_82ffb22b5d074dfe952b025c3f149cef);
+            
+
+            marker_9c4c20ec31cf495ea4811fdb38ecff96.bindPopup(popup_a8479b4133074108a5908e43e8a88e9a);
+
+            
+        
+    
+
+            var marker_93130760b21c427d95f42d90a3e6ad07 = L.marker(
+                [50.93333300000001,4.433333],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_6336d3912df84ec493326d84460a6caf);
+            
+    
+
+                var icon_14a66310ff694bffbd7f5a6752421189 = L.AwesomeMarkers.icon({
+                    icon: 'user',
+                    iconColor: 'white',
+                    markerColor: 'darkgreen',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_93130760b21c427d95f42d90a3e6ad07.setIcon(icon_14a66310ff694bffbd7f5a6752421189);
+            
+    
+            var popup_f028e145d29c40cc99f0bf0e9f661185 = L.popup({maxWidth: '300'});
+
+            
+                var html_f11bd783779e412eb80e56058473197d = $('<div id="html_f11bd783779e412eb80e56058473197d" style="width: 100.0%; height: 100.0%;"><b>Vilvoorde: </b>36955 People.</div>')[0];
+                popup_f028e145d29c40cc99f0bf0e9f661185.setContent(html_f11bd783779e412eb80e56058473197d);
+            
+
+            marker_93130760b21c427d95f42d90a3e6ad07.bindPopup(popup_f028e145d29c40cc99f0bf0e9f661185);
+
+            
+        
+    
+
+            var marker_8d46eb9de64c414a92a451008865a615 = L.marker(
+                [50.883333,3.416667],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_6336d3912df84ec493326d84460a6caf);
+            
+    
+
+                var icon_126a434823224b5194c4937b84e0f062 = L.AwesomeMarkers.icon({
+                    icon: 'user',
+                    iconColor: 'white',
+                    markerColor: 'darkgreen',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_8d46eb9de64c414a92a451008865a615.setIcon(icon_126a434823224b5194c4937b84e0f062);
+            
+    
+            var popup_6711e6d9e022497e887d3d55733e0a1a = L.popup({maxWidth: '300'});
+
+            
+                var html_04b4283dd23747cabde6eac41c426ce6 = $('<div id="html_04b4283dd23747cabde6eac41c426ce6" style="width: 100.0%; height: 100.0%;"><b>Waregem: </b>35896 People.</div>')[0];
+                popup_6711e6d9e022497e887d3d55733e0a1a.setContent(html_04b4283dd23747cabde6eac41c426ce6);
+            
+
+            marker_8d46eb9de64c414a92a451008865a615.bindPopup(popup_6711e6d9e022497e887d3d55733e0a1a);
+
+            
+        
+    
+
+            var marker_628b48847fb44d2e88291021dffd5026 = L.marker(
+                [50.716667,4.383333],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_6336d3912df84ec493326d84460a6caf);
+            
+    
+
+                var icon_eebbadbef1ab4c42884dad28a49b7186 = L.AwesomeMarkers.icon({
+                    icon: 'user',
+                    iconColor: 'white',
+                    markerColor: 'darkgreen',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_628b48847fb44d2e88291021dffd5026.setIcon(icon_eebbadbef1ab4c42884dad28a49b7186);
+            
+    
+            var popup_9ae5488d67ca44198af330dfc6925cc7 = L.popup({maxWidth: '300'});
+
+            
+                var html_0c513d7feb454f11b6641008bb15faca = $('<div id="html_0c513d7feb454f11b6641008bb15faca" style="width: 100.0%; height: 100.0%;"><b>Waterloo: </b>28910 People.</div>')[0];
+                popup_9ae5488d67ca44198af330dfc6925cc7.setContent(html_0c513d7feb454f11b6641008bb15faca);
+            
+
+            marker_628b48847fb44d2e88291021dffd5026.bindPopup(popup_9ae5488d67ca44198af330dfc6925cc7);
+
+            
+        
+    
+
+            var marker_6aa610efa8c445048fc03d4f50ba5d75 = L.marker(
+                [50.716667,4.616667],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_6336d3912df84ec493326d84460a6caf);
+            
+    
+
+                var icon_c23d1750d3f6443aa462b542156919d3 = L.AwesomeMarkers.icon({
+                    icon: 'user',
+                    iconColor: 'white',
+                    markerColor: 'darkgreen',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_6aa610efa8c445048fc03d4f50ba5d75.setIcon(icon_c23d1750d3f6443aa462b542156919d3);
+            
+    
+            var popup_82db34f2462145249de232fb07c63b31 = L.popup({maxWidth: '300'});
+
+            
+                var html_d1084de490e54e59921076e464b6667e = $('<div id="html_d1084de490e54e59921076e464b6667e" style="width: 100.0%; height: 100.0%;"><b>Wavre: </b>32112 People.</div>')[0];
+                popup_82db34f2462145249de232fb07c63b31.setContent(html_d1084de490e54e59921076e464b6667e);
+            
+
+            marker_6aa610efa8c445048fc03d4f50ba5d75.bindPopup(popup_82db34f2462145249de232fb07c63b31);
+
+            
+        
+    
+
+            var marker_bc23f09b4e7542b1bf5745f28f3edfee = L.marker(
+                [51.083333,4.916667],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_6336d3912df84ec493326d84460a6caf);
+            
+    
+
+                var icon_6ee1036c1ca74f978bda57eda6f88111 = L.AwesomeMarkers.icon({
+                    icon: 'user',
+                    iconColor: 'white',
+                    markerColor: 'darkgreen',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_bc23f09b4e7542b1bf5745f28f3edfee.setIcon(icon_6ee1036c1ca74f978bda57eda6f88111);
+            
+    
+            var popup_c9270f356c6b4efa93b2a84d539d7f42 = L.popup({maxWidth: '300'});
+
+            
+                var html_ba25723f88fa42db9eba98aaf6919d09 = $('<div id="html_ba25723f88fa42db9eba98aaf6919d09" style="width: 100.0%; height: 100.0%;"><b>Westerlo: </b>22579 People.</div>')[0];
+                popup_c9270f356c6b4efa93b2a84d539d7f42.setContent(html_ba25723f88fa42db9eba98aaf6919d09);
+            
+
+            marker_bc23f09b4e7542b1bf5745f28f3edfee.bindPopup(popup_c9270f356c6b4efa93b2a84d539d7f42);
+
+            
+        
+    
+
+            var marker_813e0a2c549a49deb865873b37fec2c5 = L.marker(
+                [51.0,3.883333],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_6336d3912df84ec493326d84460a6caf);
+            
+    
+
+                var icon_d6d5fa7c0383411d8c3f54c35dd3abdb = L.AwesomeMarkers.icon({
+                    icon: 'user',
+                    iconColor: 'white',
+                    markerColor: 'darkgreen',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_813e0a2c549a49deb865873b37fec2c5.setIcon(icon_d6d5fa7c0383411d8c3f54c35dd3abdb);
+            
+    
+            var popup_0b7d324ab48e4729a45777cc2000e3ea = L.popup({maxWidth: '300'});
+
+            
+                var html_50628cd88b0f4f0c805764f1b6341623 = $('<div id="html_50628cd88b0f4f0c805764f1b6341623" style="width: 100.0%; height: 100.0%;"><b>Wetteren: </b>22930 People.</div>')[0];
+                popup_0b7d324ab48e4729a45777cc2000e3ea.setContent(html_50628cd88b0f4f0c805764f1b6341623);
+            
+
+            marker_813e0a2c549a49deb865873b37fec2c5.bindPopup(popup_0b7d324ab48e4729a45777cc2000e3ea);
+
+            
+        
+    
+
+            var marker_2e0fafd338544f4ba670333a5fc2d064 = L.marker(
+                [50.8,3.166667],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_6336d3912df84ec493326d84460a6caf);
+            
+    
+
+                var icon_111ad88b918543019db783f696f809bd = L.AwesomeMarkers.icon({
+                    icon: 'user',
+                    iconColor: 'white',
+                    markerColor: 'darkgreen',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_2e0fafd338544f4ba670333a5fc2d064.setIcon(icon_111ad88b918543019db783f696f809bd);
+            
+    
+            var popup_61fc246170e746678a43f43db252b745 = L.popup({maxWidth: '300'});
+
+            
+                var html_bafcdacfe48644b4ab33f6b0753639a7 = $('<div id="html_bafcdacfe48644b4ab33f6b0753639a7" style="width: 100.0%; height: 100.0%;"><b>Wevelgem: </b>30954 People.</div>')[0];
+                popup_61fc246170e746678a43f43db252b745.setContent(html_bafcdacfe48644b4ab33f6b0753639a7);
+            
+
+            marker_2e0fafd338544f4ba670333a5fc2d064.bindPopup(popup_61fc246170e746678a43f43db252b745);
+
+            
+        
+    
+
+            var marker_bf775c653d8a4e9a994835a4dddc4a84 = L.marker(
+                [51.066667,4.366667],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_6336d3912df84ec493326d84460a6caf);
+            
+    
+
+                var icon_cb2a35988fea40f0a956cc2d4b953d0e = L.AwesomeMarkers.icon({
+                    icon: 'user',
+                    iconColor: 'white',
+                    markerColor: 'darkgreen',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_bf775c653d8a4e9a994835a4dddc4a84.setIcon(icon_cb2a35988fea40f0a956cc2d4b953d0e);
+            
+    
+            var popup_e0107096c6b84c31aa497686d91afddb = L.popup({maxWidth: '300'});
+
+            
+                var html_bc9be452e4574aa2b06a04ce2fecba93 = $('<div id="html_bc9be452e4574aa2b06a04ce2fecba93" style="width: 100.0%; height: 100.0%;"><b>Willebroek: </b>22808 People.</div>')[0];
+                popup_e0107096c6b84c31aa497686d91afddb.setContent(html_bc9be452e4574aa2b06a04ce2fecba93);
+            
+
+            marker_bf775c653d8a4e9a994835a4dddc4a84.bindPopup(popup_e0107096c6b84c31aa497686d91afddb);
+
+            
+        
+    
+
+            var marker_8d7ad48f0b024598bd40788ada64a830 = L.marker(
+                [50.883333,4.466667],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_6336d3912df84ec493326d84460a6caf);
+            
+    
+
+                var icon_dbbcf0479fb84951948e2c604e766b82 = L.AwesomeMarkers.icon({
+                    icon: 'user',
+                    iconColor: 'white',
+                    markerColor: 'darkgreen',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_8d7ad48f0b024598bd40788ada64a830.setIcon(icon_dbbcf0479fb84951948e2c604e766b82);
+            
+    
+            var popup_7409aeb20646451b91f3904b1d0af434 = L.popup({maxWidth: '300'});
+
+            
+                var html_c52bd76d4830434ab18e6b6a91533657 = $('<div id="html_c52bd76d4830434ab18e6b6a91533657" style="width: 100.0%; height: 100.0%;"><b>Zaventem: </b>28188 People.</div>')[0];
+                popup_7409aeb20646451b91f3904b1d0af434.setContent(html_c52bd76d4830434ab18e6b6a91533657);
+            
+
+            marker_8d7ad48f0b024598bd40788ada64a830.bindPopup(popup_7409aeb20646451b91f3904b1d0af434);
+
+            
+        
+    
+
+            var marker_2295278cac634cdca9b065f866d9e015 = L.marker(
+                [51.15,3.1333330000000004],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_6336d3912df84ec493326d84460a6caf);
+            
+    
+
+                var icon_aba241392d9b4070a082e5350446a138 = L.AwesomeMarkers.icon({
+                    icon: 'user',
+                    iconColor: 'white',
+                    markerColor: 'darkgreen',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_2295278cac634cdca9b065f866d9e015.setIcon(icon_aba241392d9b4070a082e5350446a138);
+            
+    
+            var popup_414b55c6622a4e958f532d6671d0d909 = L.popup({maxWidth: '300'});
+
+            
+                var html_eb291366b23d4beeb35d9d11e31029c2 = $('<div id="html_eb291366b23d4beeb35d9d11e31029c2" style="width: 100.0%; height: 100.0%;"><b>Zedelgem: </b>21968 People.</div>')[0];
+                popup_414b55c6622a4e958f532d6671d0d909.setContent(html_eb291366b23d4beeb35d9d11e31029c2);
+            
+
+            marker_2295278cac634cdca9b065f866d9e015.bindPopup(popup_414b55c6622a4e958f532d6671d0d909);
+
+            
+        
+    
+
+            var marker_4642ad8e16b6415cbea8640af0a7f2c5 = L.marker(
+                [51.066667,4.033333],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_6336d3912df84ec493326d84460a6caf);
+            
+    
+
+                var icon_b5e9dc1dd6d44d8795e89aa06bfd38e2 = L.AwesomeMarkers.icon({
+                    icon: 'user',
+                    iconColor: 'white',
+                    markerColor: 'darkgreen',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_4642ad8e16b6415cbea8640af0a7f2c5.setIcon(icon_b5e9dc1dd6d44d8795e89aa06bfd38e2);
+            
+    
+            var popup_0d25bda809a846c7b7622d27df22b2fe = L.popup({maxWidth: '300'});
+
+            
+                var html_4fbd5791706b43c2bb30d5b87285e086 = $('<div id="html_4fbd5791706b43c2bb30d5b87285e086" style="width: 100.0%; height: 100.0%;"><b>Zele: </b>20236 People.</div>')[0];
+                popup_0d25bda809a846c7b7622d27df22b2fe.setContent(html_4fbd5791706b43c2bb30d5b87285e086);
+            
+
+            marker_4642ad8e16b6415cbea8640af0a7f2c5.bindPopup(popup_0d25bda809a846c7b7622d27df22b2fe);
+
+            
+        
+    
+
+            var marker_0a5b07804456435385a254f4c425eb35 = L.marker(
+                [50.983333,4.466667],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_6336d3912df84ec493326d84460a6caf);
+            
+    
+
+                var icon_ace99d4afd7c420f92bacbac5aee90c6 = L.AwesomeMarkers.icon({
+                    icon: 'user',
+                    iconColor: 'white',
+                    markerColor: 'darkgreen',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_0a5b07804456435385a254f4c425eb35.setIcon(icon_ace99d4afd7c420f92bacbac5aee90c6);
+            
+    
+            var popup_75676bb5ba464bf9baa3f4852ba22970 = L.popup({maxWidth: '300'});
+
+            
+                var html_8f6da3492a1e4dd093b964a162e3b565 = $('<div id="html_8f6da3492a1e4dd093b964a162e3b565" style="width: 100.0%; height: 100.0%;"><b>Zemst: </b>21096 People.</div>')[0];
+                popup_75676bb5ba464bf9baa3f4852ba22970.setContent(html_8f6da3492a1e4dd093b964a162e3b565);
+            
+
+            marker_0a5b07804456435385a254f4c425eb35.bindPopup(popup_75676bb5ba464bf9baa3f4852ba22970);
+
+            
+        
+    
+
+            var marker_59baf252e26144b48ffb0d7f770ced9f = L.marker(
+                [51.266667,4.7],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_6336d3912df84ec493326d84460a6caf);
+            
+    
+
+                var icon_654bc0fa8ae74501b165712cc1c2be5d = L.AwesomeMarkers.icon({
+                    icon: 'user',
+                    iconColor: 'white',
+                    markerColor: 'darkgreen',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_59baf252e26144b48ffb0d7f770ced9f.setIcon(icon_654bc0fa8ae74501b165712cc1c2be5d);
+            
+    
+            var popup_e8f2b0c58e8b49dc88f9fbc68e90be67 = L.popup({maxWidth: '300'});
+
+            
+                var html_198ba548cc0d4e0bb3d1dead8e1cbb00 = $('<div id="html_198ba548cc0d4e0bb3d1dead8e1cbb00" style="width: 100.0%; height: 100.0%;"><b>Zoersel: </b>20642 People.</div>')[0];
+                popup_e8f2b0c58e8b49dc88f9fbc68e90be67.setContent(html_198ba548cc0d4e0bb3d1dead8e1cbb00);
+            
+
+            marker_59baf252e26144b48ffb0d7f770ced9f.bindPopup(popup_e8f2b0c58e8b49dc88f9fbc68e90be67);
+
+            
+        
+    
+
+            var marker_298259eeebd1409794436aa49cdab7ca = L.marker(
+                [50.866667,3.8],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_6336d3912df84ec493326d84460a6caf);
+            
+    
+
+                var icon_edc9039391ab4f138e3130006f52d314 = L.AwesomeMarkers.icon({
+                    icon: 'user',
+                    iconColor: 'white',
+                    markerColor: 'darkgreen',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_298259eeebd1409794436aa49cdab7ca.setIcon(icon_edc9039391ab4f138e3130006f52d314);
+            
+    
+            var popup_43dd27e27a8244dbaa15aa0ebc3e601c = L.popup({maxWidth: '300'});
+
+            
+                var html_f1e248e177894e71aa01b0c5e5710bb8 = $('<div id="html_f1e248e177894e71aa01b0c5e5710bb8" style="width: 100.0%; height: 100.0%;"><b>Zottegem: </b>24434 People.</div>')[0];
+                popup_43dd27e27a8244dbaa15aa0ebc3e601c.setContent(html_f1e248e177894e71aa01b0c5e5710bb8);
+            
+
+            marker_298259eeebd1409794436aa49cdab7ca.bindPopup(popup_43dd27e27a8244dbaa15aa0ebc3e601c);
+
+            
+        
+    
+
+            var marker_2503965a65af4457ac751011f1b647f3 = L.marker(
+                [50.8,3.333333],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_6336d3912df84ec493326d84460a6caf);
+            
+    
+
+                var icon_1e0a2b8f7971429194c344dd70e872bc = L.AwesomeMarkers.icon({
+                    icon: 'user',
+                    iconColor: 'white',
+                    markerColor: 'darkgreen',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_2503965a65af4457ac751011f1b647f3.setIcon(icon_1e0a2b8f7971429194c344dd70e872bc);
+            
+    
+            var popup_6d72f397018d43bea1be2e82f60adebb = L.popup({maxWidth: '300'});
+
+            
+                var html_d0aa2857fc3d4f40a8ddff3a34ce1397 = $('<div id="html_d0aa2857fc3d4f40a8ddff3a34ce1397" style="width: 100.0%; height: 100.0%;"><b>Zwevegem: </b>23358 People.</div>')[0];
+                popup_6d72f397018d43bea1be2e82f60adebb.setContent(html_d0aa2857fc3d4f40a8ddff3a34ce1397);
+            
+
+            marker_2503965a65af4457ac751011f1b647f3.bindPopup(popup_6d72f397018d43bea1be2e82f60adebb);
+
+            
+        
+</script>
