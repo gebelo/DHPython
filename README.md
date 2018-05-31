@@ -4,7 +4,7 @@
 
 Full set of lessons from 2018 Dataharvest 2018 Python training
 
-You can either [download the files](https://github.com/gebelo/DHPython/archive/master.zip), clone the files and keep track of any updates using GIT. To get started, see [this guide] (https://guides.github.com/activities/hello-world/).
+You can either [download the files](https://github.com/gebelo/DHPython/archive/master.zip), clone the files and keep track of any updates using GIT. To get started, see [this guide](https://guides.github.com/activities/hello-world/).
 
 
 1. [Lesson 1](https://www.google.com) -- Topic
