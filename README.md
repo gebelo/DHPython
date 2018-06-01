@@ -8,9 +8,9 @@ You can either [download the files](https://github.com/gebelo/DHPython/archive/m
 
 
 1. [Lesson 1-2](PythonI_II/) -- Intro to Python
-3. [Lesson 3](PythonIII/) -- Basics of Python: data types and structures. And funny loops. 
-4. [Lesson 4](PythonIV) -- Importing and manipulating data files with CSV, Requests and dictionaries.
-5. [Lesson 5](https://github.com/gebelo/DHPython/tree/master/PythonV) -- Scraping websites using Requests, BeautifulSoup and finally pandas to store the structured data.
-6. [Lessons 6/7](https://github.com/gebelo/DHPython/tree/master/PythonVI_VII) -- Analyzing data with Pandas
-7. [Lesson 8](https://github.com/gebelo/DHPython/tree/master/PythonVIII) -- Reading thousands of courts files using OS, Regular Expressions, OS and Pandas
-8. [Lesson 9](PythonIX) -- You should produce a map? That's how you can do it. 
+2. [Lesson 3](PythonIII/) -- Basics of Python: data types and structures. And funny loops. 
+3. [Lesson 4](PythonIV) -- Importing and manipulating data files with CSV, Requests and dictionaries.
+4. [Lesson 5](https://github.com/gebelo/DHPython/tree/master/PythonV) -- Scraping websites using Requests, BeautifulSoup and finally pandas to store the structured data.
+5. [Lessons 6/7](https://github.com/gebelo/DHPython/tree/master/PythonVI_VII) -- Analyzing data with Pandas
+6. [Lesson 8](https://github.com/gebelo/DHPython/tree/master/PythonVIII) -- Reading thousands of courts files using OS, Regular Expressions, OS and Pandas
+7. [Lesson 9](PythonIX) -- You should produce a map? That's how you can do it. 
