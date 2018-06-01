@@ -15,5 +15,5 @@ You can either [download the files](https://github.com/gebelo/DHPython/archive/m
 6. [Lesson 8](https://github.com/gebelo/DHPython/tree/master/PythonVIII) -- Reading thousands of courts files using OS, Regular Expressions, OS and Pandas
 7. [Lesson 9](PythonIX) -- You should produce a map? That's how you can do it. 
 
-### Contributors: Mathias Born, Winny de Jong, Robert Gebeloff, Adriana Homolova, Barnaby Skinner, Stefan Wehrmeyer
+* Contributors: Mathias Born, Winny de Jong, Robert Gebeloff, Adriana Homolova, Barnaby Skinner, Stefan Wehrmeyer
 
